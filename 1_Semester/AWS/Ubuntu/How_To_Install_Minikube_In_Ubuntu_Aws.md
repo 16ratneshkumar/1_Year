@@ -14,11 +14,12 @@ NOTE : "t3.small" perfect for minikube on aws.
 ```
 
 <br/>
-*** STEP-1 IS NOT MANDATORY
+<b> STEP-1 IS NOT MANDATORY</b>
 ## STEP-1
 #### Change hostname
+
 ```
-$ sudo hostnamectl set-hostname Yourchoice
+$ sudo hostnamectl set-hostname <i>Yourchoice</i>
 $ bash
 $ hostname
 ```
