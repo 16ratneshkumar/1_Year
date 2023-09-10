@@ -34,7 +34,7 @@ sudo apt-get install \
 <br/>
 
 #### Add Docker’s official GPG key
-#full form of GPG=“GnuPrivacy Guard”
+<h5>full form of GPG=“GnuPrivacy Guard”</h5>
 ```
 sudo mkdir -p /etc/apt/keyrings
 
