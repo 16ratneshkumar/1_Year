@@ -3,6 +3,7 @@
 ### STEP-1
 <b>STEP-1 IS NOT MANDATORY</b>
 #### Switch to root user & change hostname
+
 ```
 sudo -i
 
