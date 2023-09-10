@@ -1,4 +1,4 @@
-<h1 align=center>HOW TO INSTALL DOCKER ON UBUNTU(AWS)</h1>
+<h1 align=center,colour='red'>HOW TO INSTALL DOCKER ON UBUNTU(AWS)</h1>
 <br/>
 
 ### STEP-1
@@ -16,6 +16,7 @@ bash
 ```
 
 <br/>
+
 
 ### STEP-2
 
