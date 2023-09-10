@@ -14,19 +14,18 @@ NOTE : "t3.small" perfect for minikube on aws.
 ```
 
 <br/>
-
-## 🔹STEP-1
+*** STEP-1 IS NOT MANDATORY
+## STEP-1
 #### Change hostname
 ```
-$ whoami
-$ sudo hostnamectl set-hostname terraform
+$ sudo hostnamectl set-hostname Yourchoice
 $ bash
 $ hostname
 ```
 
 <br/>
 
-## 🔹STEP-2
+## STEP-2
 #### Update Ubuntu packages install required package for this lab
 ```
 $ sudo apt-get update -y
