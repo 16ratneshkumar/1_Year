@@ -12,7 +12,6 @@
 
 NOTE : "t3.small" perfect for docker on aws.
 ```
-<br/>
 
 ### STEP-1
 
@@ -27,9 +26,6 @@ $ hostnamectl set-hostname docker
 
 $ bash
 ```
-
-<br/>
-
 ### STEP-2
 
 #### Uninstall old versions
@@ -37,9 +33,6 @@ $ bash
 ```
 $ sudo apt-get remove docker docker-engine docker.io containerd runc
 ```
-
-<br/>
-
 ### STEP-3
 
 #### Set up the repository
@@ -52,9 +45,6 @@ $ sudo apt-get install \
     gnupg \
     lsb-release
 ```
-
-<br/>
-
 ### STEP-4
 
 #### Add Docker’s official GPG key
@@ -66,9 +56,6 @@ $ sudo mkdir -p /etc/apt/keyrings
 
 $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 ```
-
-<br/>
-
 ### STEP-5
 
 #### Use the following command to set up the repository
@@ -77,9 +64,6 @@ $ echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
-
-<br/>
-
 ### STEP-6
 
 #### Install Docker Engine
@@ -88,9 +72,6 @@ $ sudo apt-get update
 
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
-
-<br/>
-
 ### STEP-7
 
 #### Start Docker service
@@ -101,9 +82,6 @@ $ systemctl enable docker
 
 $ systemctl status docker
 ```
-
-<br/>
-
 ### STEP-8
 
 #### Check docker version
@@ -113,8 +91,6 @@ $ docker version
 
 $ docker --version
 ```
-
-<br/>
 
 ### STEP-9
 
