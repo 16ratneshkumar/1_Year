@@ -31,7 +31,7 @@ formatted listing</td>
 <td>3.
 </td>
 <td>
-</td>
+ls -la</td>
 <td>
 formatted listing including hidden files</td>
 </tr>
@@ -40,16 +40,16 @@ formatted listing including hidden files</td>
 <td>4.
 </td>
 <td>
-</td>
+cd dir</td>
 <td>
-change directory to dir (dir will be directory name)</td>
+change directory to dir <b>(dir will be directory name)</b></td>
 </tr>
 
 <tr>
 <td>5.
 </td>
 <td>
-</td>
+cd...</td>
 <td>
 change to parent directory directory</td>
 </tr>
@@ -58,7 +58,7 @@ change to parent directory directory</td>
 <td>6.
 </td>
 <td>
-</td>
+cd../dir</td>
 <td>
 change to dir in parent</td>
 </tr>
@@ -68,7 +68,7 @@ change to dir in parent</td>
 <td>7.
 </td>
 <td>
-</td>
+cd</td>
 <td>
 change to home directory</td>
 </tr>
@@ -77,7 +77,7 @@ change to home directory</td>
 <td>8.
 </td>
 <td>
-</td>
+pwd</td>
 <td>
 show current directory</td>
 </tr>
@@ -86,7 +86,7 @@ show current directory</td>
 <td>9.
 </td>
 <td>
-</td>
+mkdir dir</td>
 <td>
 create a directory dir</td>
 </tr>
@@ -95,7 +95,7 @@ create a directory dir</td>
 <td>10.
 </td>
 <td>
-</td>
+rm file</td>
 <td>
 delete file</td>
 </tr>
@@ -104,7 +104,7 @@ delete file</td>
 <td>11.
 </td>
 <td>
-</td>
+rm -f dir</td>
 <td>
 force remove file</td>
 </tr>
@@ -113,7 +113,7 @@ force remove file</td>
 <td>12.
 </td>
 <td>
-</td>
+rm -r dir</td>
 <td>
 delete directory dir</td>
 </tr>
@@ -122,7 +122,7 @@ delete directory dir</td>
 <td>13.
 </td>
 <td>
-</td>
+rm-rf dir</td>
 <td>
 remove directory dir</td>
 </tr>
@@ -131,7 +131,7 @@ remove directory dir</td>
 <td>14.
 </td>
 <td>
-</td>
+cp filel file2</td>
 <td>
 copy fill to filo2</td>
 </tr>
@@ -140,7 +140,7 @@ copy fill to filo2</td>
 <td>15.
 </td>
 <td>
-</td>
+my filel file2</td>
 <td>
 rename filel to file2</td>
 </tr>
@@ -149,7 +149,7 @@ rename filel to file2</td>
 <td>16.
 </td>
 <td>
-</td>
+my filel dir/file2</td>
 <td>
 move filel to dir as file2</td>
 </tr>
@@ -158,7 +158,7 @@ move filel to dir as file2</td>
 <td>17.
 </td>
 <td>
-</td>
+touch file</td>
 <td>
 creato or updato filo</td>
 </tr>
@@ -167,7 +167,7 @@ creato or updato filo</td>
 <td>18.
 </td>
 <td>
-</td>
+cat file</td>
 <td>
 output contents of file</td>
 </tr>
@@ -176,7 +176,7 @@ output contents of file</td>
 <td>19.
 </td>
 <td>
-</td>
+cat > file</td>
 <td>
 write standard input into file</td>
 </tr>
@@ -185,7 +185,7 @@ write standard input into file</td>
 <td>20.
 </td>
 <td>
-</td>
+cat >> file</td>
 <td>
 append standard input into file</td>
 </tr>
@@ -194,45 +194,9 @@ append standard input into file</td>
 <td>21.
 </td>
 <td>
-</td>
+tail-f file</td>
 <td>
 output contents of file as it grows</td>
-</tr>
-
-<tr>
-<td>1.
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-
-<tr>
-<td>1.
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-
-<tr>
-<td>1.
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-
-<tr>
-<td>1.
-</td>
-<td>
-</td>
-<td>
-</td>
 </tr>
 
 </table>
