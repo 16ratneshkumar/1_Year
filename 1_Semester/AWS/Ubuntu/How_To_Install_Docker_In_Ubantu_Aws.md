@@ -1,4 +1,4 @@
-<h1 align=center,colour='red'>HOW TO INSTALL DOCKER ON UBUNTU(AWS)</h1>
+<h1 align=center>HOW TO INSTALL DOCKER ON UBUNTU(AWS)</h1>
 
 <br/>
 
@@ -17,6 +17,7 @@ $ bash
 ```
 
 <br/>
+
 ### STEP-2
 
 #### Uninstall old versions
@@ -26,6 +27,7 @@ $ sudo apt-get remove docker docker-engine docker.io containerd runc
 ```
 
 <br/>
+
 ### STEP-3
 
 #### Set up the repository
