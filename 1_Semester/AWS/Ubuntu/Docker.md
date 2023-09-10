@@ -3,7 +3,7 @@
 
 #### Switch to root user & change hostname
 ```
-sudo -i
+sudo su
 
 hostnamectl set-hostname docker
 
