@@ -1,5 +1,17 @@
 <h1 align=center>HOW TO INSTALL DOCKER ON UBUNTU(AWS)</h1>
 
+
+<br/>
+
+#### What you’ll need (Required)
+```
+- 2 CPUs or more
+- 2 GB of free memory
+- 20 GB of free disk space
+- Internet connection
+
+NOTE : "t3.small" perfect for docker on aws.
+```
 <br/>
 
 ### STEP-1
