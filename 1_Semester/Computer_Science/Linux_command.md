@@ -25,7 +25,7 @@ directory listing (list all files/folders on current dir)
 <td>
 </td>
 <td>
-</td>
+formatted listing</td>
 </tr>
 
 <tr>
@@ -34,7 +34,7 @@ directory listing (list all files/folders on current dir)
 <td>
 </td>
 <td>
-</td>
+formatted listing including hidden files</td>
 </tr>
 
 <tr>
@@ -43,7 +43,7 @@ directory listing (list all files/folders on current dir)
 <td>
 </td>
 <td>
-</td>
+change directory to dir (dir will be directory name)</td>
 </tr>
 
 <tr>
@@ -52,7 +52,7 @@ directory listing (list all files/folders on current dir)
 <td>
 </td>
 <td>
-</td>
+change to parent directory directory</td>
 </tr>
 
 <tr>
@@ -61,7 +61,7 @@ directory listing (list all files/folders on current dir)
 <td>
 </td>
 <td>
-</td>
+change to dir in parent</td>
 </tr>
 
 
@@ -71,7 +71,7 @@ directory listing (list all files/folders on current dir)
 <td>
 </td>
 <td>
-</td>
+change to home directory</td>
 </tr>
 
 <tr>
@@ -80,7 +80,7 @@ directory listing (list all files/folders on current dir)
 <td>
 </td>
 <td>
-</td>
+show current directory</td>
 </tr>
 
 <tr>
@@ -89,7 +89,7 @@ directory listing (list all files/folders on current dir)
 <td>
 </td>
 <td>
-</td>
+create a directory dir</td>
 </tr>
 
 <tr>
@@ -98,7 +98,7 @@ directory listing (list all files/folders on current dir)
 <td>
 </td>
 <td>
-</td>
+delete file</td>
 </tr>
 
 <tr>
@@ -107,7 +107,7 @@ directory listing (list all files/folders on current dir)
 <td>
 </td>
 <td>
-</td>
+force remove file</td>
 </tr>
 
 <tr>
@@ -116,7 +116,7 @@ directory listing (list all files/folders on current dir)
 <td>
 </td>
 <td>
-</td>
+delete directory dir</td>
 </tr>
 
 <tr>
@@ -125,7 +125,7 @@ directory listing (list all files/folders on current dir)
 <td>
 </td>
 <td>
-</td>
+remove directory dir</td>
 </tr>
 
 <tr>
@@ -134,7 +134,7 @@ directory listing (list all files/folders on current dir)
 <td>
 </td>
 <td>
-</td>
+copy fill to filo2</td>
 </tr>
 
 <tr>
@@ -143,7 +143,7 @@ directory listing (list all files/folders on current dir)
 <td>
 </td>
 <td>
-</td>
+rename filel to file2</td>
 </tr>
 
 <tr>
@@ -152,7 +152,7 @@ directory listing (list all files/folders on current dir)
 <td>
 </td>
 <td>
-</td>
+move filel to dir as file2</td>
 </tr>
 
 <tr>
@@ -161,7 +161,7 @@ directory listing (list all files/folders on current dir)
 <td>
 </td>
 <td>
-</td>
+creato or updato filo</td>
 </tr>
 
 <tr>
@@ -170,7 +170,7 @@ directory listing (list all files/folders on current dir)
 <td>
 </td>
 <td>
-</td>
+output contents of file</td>
 </tr>
 
 <tr>
@@ -179,7 +179,7 @@ directory listing (list all files/folders on current dir)
 <td>
 </td>
 <td>
-</td>
+write standard input into file</td>
 </tr>
 
 <tr>
@@ -188,7 +188,7 @@ directory listing (list all files/folders on current dir)
 <td>
 </td>
 <td>
-</td>
+append standard input into file</td>
 </tr>
 
 <tr>
@@ -197,7 +197,7 @@ directory listing (list all files/folders on current dir)
 <td>
 </td>
 <td>
-</td>
+output contents of file as it grows</td>
 </tr>
 
 <tr>
