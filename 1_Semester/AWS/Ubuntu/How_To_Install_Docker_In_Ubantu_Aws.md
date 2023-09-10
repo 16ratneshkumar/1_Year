@@ -1,7 +1,9 @@
 <h1 align=center>HOW TO INSTALL DOCKER ON UBUNTU(AWS)</h1>
 <br/>
 ### STEP-1
+
 <b>STEP-1 IS NOT MANDATORY</b>
+
 #### Switch to root user & change hostname
 
 ```
@@ -14,6 +16,8 @@ bash
 
 <br/>
 
+### STEP-2
+
 #### Uninstall old versions
 
 ```
@@ -21,6 +25,8 @@ sudo apt-get remove docker docker-engine docker.io containerd runc
 ```
 
 <br/>
+
+### STEP-3
 
 #### Set up the repository
 ```
@@ -35,6 +41,8 @@ sudo apt-get install \
 
 <br/>
 
+### STEP-4
+
 #### Add Docker’s official GPG key
 <h4>Full Form Of GPG=“GnuPrivacy Guard”</h4>
 <p>why use GPG? because we don’t want to install unauthenticated packages to our Linux machine and risk our Linux machine and also to make sure users can communicate securely. GPG, or GNU Privacy Guard, is a public key cryptography implementation. This allows for the secure transmission of information between parties and can be used to verify that the origin of a message is genuine</p>
@@ -47,6 +55,8 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o 
 
 <br/>
 
+### STEP-5
+
 #### Use the following command to set up the repository
 ```
 echo \
@@ -55,6 +65,8 @@ echo \
 ```
 
 <br/>
+
+### STEP-6
 
 #### Install Docker Engine
 ```
