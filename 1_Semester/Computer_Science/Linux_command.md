@@ -1,18 +1,25 @@
 <h1>Linux command</h1>
 <table>
 <tr>
-<th>command
+<th>S.No.</th>
+<th>COMMAND
 </th>
-<th>why we use??
+<th>WHY WE USE??
 </th>
 </tr>
+
 <tr>
 <td>
 </td>
 <td>
 </td>
+<td>
+</td>
 </tr>
+
 <tr>
+<td>
+</td>
 <td>
 </td>
 <td>
