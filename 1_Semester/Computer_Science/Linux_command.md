@@ -22,8 +22,7 @@ directory listing (list all files/folders on current dir)
 <tr>
 <td>2.
 </td>
-<td>
-</td>
+<td>ls -l</td>
 <td>
 formatted listing</td>
 </tr>
