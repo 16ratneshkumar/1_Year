@@ -22,7 +22,7 @@ NOTE : "t3.small" perfect for minikube on aws.
 
 ```
 $ sudo hostnamectl set-hostname
-<i>Yourchoice</i>
+<b>Yourchoice</b>
 $ bash
 $ hostname
 ```
