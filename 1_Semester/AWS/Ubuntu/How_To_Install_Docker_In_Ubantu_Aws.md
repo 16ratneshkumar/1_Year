@@ -1,5 +1,6 @@
 <h1 align=center>HOW TO INSTALL DOCKER ON UBUNTU(AWS)</h1>
 <br/>
+
 ### STEP-1
 
 <b>STEP-1 IS NOT MANDATORY</b>
@@ -77,6 +78,8 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 <br/>
 
+### STEP-7
+
 #### Start Docker service
 ```
 systemctl start docker
@@ -88,6 +91,8 @@ systemctl status docker
 
 <br/>
 
+### STEP-8
+
 #### Check docker version
 
 ```
@@ -97,6 +102,8 @@ docker --version
 ```
 
 <br/>
+
+### STEP-9
 
 #### Run demo sample container
 ```
