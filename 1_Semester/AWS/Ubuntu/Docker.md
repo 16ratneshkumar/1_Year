@@ -1,5 +1,5 @@
 
-#HOW TO INSTALL DOCKER ON UBUNTU(AWS)
+# HOW TO INSTALL DOCKER ON UBUNTU(AWS)
 
 #### Switch to root user & change hostname
 ```
