@@ -12,8 +12,10 @@
 <td>1.
 </td>
 <td>
+ls
 </td>
 <td>
+directory listing (list all files/folders on current dir)
 </td>
 </tr>
 
@@ -190,7 +192,7 @@
 </tr>
 
 <tr>
-<td>1.
+<td>21.
 </td>
 <td>
 </td>
