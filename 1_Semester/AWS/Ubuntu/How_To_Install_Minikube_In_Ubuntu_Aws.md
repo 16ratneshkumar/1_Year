@@ -1,5 +1,5 @@
 
-<h1 align="center">HOW TO INSTALL MIMIKUBE IN UBUNTU (AWS)</h1>
+<h1 align="center">HOW TO INSTALL MINIKUBE IN UBUNTU (AWS)</h1>
 
 <br/>
 
