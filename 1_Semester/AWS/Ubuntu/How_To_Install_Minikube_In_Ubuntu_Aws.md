@@ -14,9 +14,10 @@ NOTE : "t3.small" perfect for minikube on aws.
 ```
 
 <br/>
-<b> STEP-1 IS NOT MANDATORY</b>
 
 ## STEP-1
+
+<b> STEP-1 IS NOT MANDATORY</b>
 
 #### Change hostname
 
