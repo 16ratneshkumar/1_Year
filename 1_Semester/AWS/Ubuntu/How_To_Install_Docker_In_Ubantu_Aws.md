@@ -1,9 +1,10 @@
-how_to_install_docker_in_ubantu_aws.md
-# HOW TO INSTALL DOCKER ON UBUNTU(AWS)
-
+<h1 align=center>HOW TO INSTALL DOCKER ON UBUNTU(AWS)</h1>
+<br/>
+### STEP-1
+<b>STEP-1 IS NOT MANDATORY</b>
 #### Switch to root user & change hostname
 ```
-sudo su
+sudo -i
 
 hostnamectl set-hostname docker
 
