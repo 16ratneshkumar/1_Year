@@ -11,4 +11,3 @@ def by_loop():
 def by_comp():
     lst=[i**3 for i in input_lst if i%2==0]
     print(lst)
-by_comp()
