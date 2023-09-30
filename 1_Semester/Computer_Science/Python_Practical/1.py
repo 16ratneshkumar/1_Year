@@ -10,9 +10,14 @@ def cal_root():
         print("Root of this quadratic equation is \n",root1,'and',root2)
     else:
         print("Root of this quadratic equation is not possible")
+    run_again()
+def run_again():
     choice=input("Did you want to run again?(y/n)::").lower()
     if choice=='y':
         cal_root()
+    elif choice=='n':
+        print('Thank you for using my program')
     else:
-        print("Thank you for using my program")
+         print('Wrong input!\nEnter again!!')
+         run_again()
 cal_root()
