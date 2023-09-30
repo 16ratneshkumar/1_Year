@@ -1,8 +1,7 @@
 """4. WAP that accepts a character and performs the following:
     a. print whether the character is a letter or numeric digit or a special character.
     b. if the character is a letter, print whether the letter is uppercase or lowercase.
-    c. if the character is a numeric digit, prints its name in text (e.g., if input is 9, output
-is NINE)."""
+    c. if the character is a numeric digit, prints its name in text (e.g., if input is 9, output is NINE)."""
 def check_input():
     char=input("Enter your input either character, number or special character::")
     dct={1:'One',2:'Two',3:'Three',4:'Four',5:'Five',6:'Six',7:'Seven',8:'Eight',9:'Nine',0:'Zero'}
