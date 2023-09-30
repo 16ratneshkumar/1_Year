@@ -5,14 +5,9 @@
     d) Return maximum and minimum value from this tuple"""
 t1=(1, 2, 5, 7, 9, 2, 4, 6, 8, 10)
 t2=(11,13,15)
-tup=list(t1)
-lst=[]
 t=()
-for i in range(len(t1)//2):
-   a= tup.pop()
-   lst.insert(0,a)
-print("First half tuple are::\n",tuple(tup))
-print("Other half tuple are::\n",tuple(lst))
+print("First half tuple are::\n",t1[0:5])
+print("Other half tuple are::\n",t1[5:len(t1)])
 for i in t1:
     if i%2==0:
         t=t+(i,)
