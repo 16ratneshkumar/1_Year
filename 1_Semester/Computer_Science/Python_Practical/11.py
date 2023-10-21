@@ -32,15 +32,22 @@ def main():
     elif choice==2:
         print("\nFrequency of each character of file is::\n",dict,"\n\n")
     elif choice==3:
-        str=''
+        str1=''
+        lst=str.split('\n')
         print('\nFile data in reverse are shown below::\n')
         for i in lst:
-            str=i+" "+str
-        print(str," \n\n")     
+            if i=="":
+                pass
+            else:
+                lst=i.split(" ")
+                for i in lst:
+                    str1=i+" "+str1
+                str1="\n"+str1
+        print(str1," \n\n")
     elif choice==4:
-        with open(" File2.txt","w") as file_1:
+        with open(" File1.txt","w") as file_1:
             file_1.writelines(file1)
-        with open(" File1.txt","w") as file_2:
+        with open(" File2.txt","w") as file_2:
             file_2.writelines(file2)
         print("Files are separated successfully!!\nFile1 for even lines\nFile2 for odd lines")
     else:
