@@ -38,9 +38,9 @@ def main():
             str=i+" "+str
         print(str," \n\n")     
     elif choice==4:
-        with open(" File1.txt","w") as file_1:
+        with open(" File2.txt","w") as file_1:
             file_1.writelines(file1)
-        with open(" File2.txt","w") as file_2:
+        with open(" File1.txt","w") as file_2:
             file_2.writelines(file2)
         print("Files are separated successfully!!\nFile1 for even lines\nFile2 for odd lines")
     else:
