@@ -1,6 +1,5 @@
 <h1 align=center>HOW TO INSTALL DOCKER ON UBUNTU(AWS)</h1>
 
-
 <br/>
 
 #### What you’ll need (Required)
