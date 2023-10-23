@@ -138,7 +138,7 @@
         - [INDIRECT ADDESSING](#indirect-addessing)
     - [SEGMENT ADDRESS](#segment-address)
 # COMPUTER SCIENCE
-  # BASICS NOTES
+# BASICS NOTES
    - # COMPUTATION
    - # STORAGE
        - ## TYPE OF STORAGE
