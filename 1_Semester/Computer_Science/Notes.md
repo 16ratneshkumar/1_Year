@@ -1,3 +1,267 @@
-basicily we need 3 this for computing cpu,storage and network. lets we start our journey with desktop computing
+# ALL THE KEYWORDS I LEARNED IN MY FIRST SEMESTER ARE WRITTEN IN THIS FILE.
+## Table of Contents
+- [COMPUTER SCIENCE](#computer-science)
+    - [BASICS NOTES](#basics-notes)
+    - [COMPUTATION](#computation)
 
-what is desktop computing?
+    - [STORAGE](#storage)
+        - [TYPE OF STORAGE](#type-of-storage)
+            - [OBJECT STORAGE](#object-storage)
+            - [VOLUME STORAGE](#volume-storage)
+        - [CEPH](#ceph)
+        - [VERCTORDB](#verctordb)
+        - [CACHE](#cache)
+    - [NETWORKING](#networking)
+        - [CI/CD]
+        - [CNI]
+        -
+
+- [CLOUD COMPUTING](#cloud-computing)
+    - [BASICS OF CLOUD COMPUTING](#basics-of-cloud-computing)
+        - [TYPE OF CLOUD COMPUTING (ON THE BAISCS OF SERVICE)](#type-of-cloud-computing-on-the-baiscs-of-service)
+            - [IAAS (INFRASTRUCTURE AS A SERVICE)](#iaas-infrastructure-as-a-service)
+            - [PAAS (PLATFORM AS A SERVICE)](#paas-platform-as-a-service)
+            - [SAAS (SOFTWARE AS A SERVICE)](#saas-software-as-a-service)
+            - [CAAS (CODE AS A SERVICE)](#caas-code-as-a-service)
+            - [XAAS (UNKNOWN AS A SERVICE)](#xaas-unknown-as-a-service)
+        - [TYPE OF CLOUD COMPUTING (ON THE BAISCS OF PROVIDER)](#type-of-cloud-computing-on-the-baiscs-of-provider)
+            - [PRIVATE CLOUD](#private-cloud)
+            - [PUBLIC CLOUD](#public-cloud)
+            - [HYBRID CLOUD](#hybrid-cloud)
+            - [PUBLIC CLOUD V/S PRIVATE CLOUD V/S HYBRID CLOUD](#public-cloud-vs-private-cloud-vs-hybrid-cloud)
+    - [PUBLIC CLOUD](#public-cloud)
+        - [AWS(AMAZON)](#awsamazon)
+        - [GCP(GOOGLE CLOUD SERVICE)](#gcpgoogle-cloud-service)
+        - [AZURE (MICROSOFT)](#azure-microsoft)
+        - [SERVICE COMPARISON BETWEEN AWS AND AZURE AND GCP](#service-comparison-between-aws-and-azure-and-gcp)
+    - [PRIVATE CLOUD](#private-cloud)
+        - [SERVICE COMPARISON BETWEEN AWS AND OPENSTACK](#service-comparison-between-aws-and-openstack)
+        - [OPENSTACK (PRIVATE CLOUD)](#openstack-private-cloud)
+        - [PROMOX (PRIVATE CLOUD)](#promox-private-cloud)
+    - [SERVER](#server)
+        - [DIFFERENCE BETWEEN NIGINX ,APACHE AND CADDY](#difference-between-niginx-apache-and-caddy)
+        - [NGINIX (PROXY SERVER)](#nginix-proxy-server)
+            -  [WHY IS NGINX CALLED A “REVERSE” PROXY?](#why-is-nginx-called-a-reverse-proxy)
+        - [APACHE (HTTP SERVER)](#apache-http-server)
+        - [CADDY HTTPs SERVER](#caddy-https-server)
+    - [DEVOPS](#devops)
+        - [C GROUPS](#c-groups)
+        - [DOCKER](#docker)
+        - [CONTAINER ORCHESTRASTION](#container-orchestrastion)
+            - [DOCKER SWARM](#docker-swarm)
+            - [KUBERNETES (K8S)](#kubernetes-k8s)
+            - [WHY WE USE K8S IN PLACE OF DOCKER SWARM??](#why-we-use-k8s-in-place-of-docker-swarm)
+- [LINUX](#linux)
+    - [UBUNTU](#ubuntu)
+- [BLOCKCHAIN](#blockchain)
+- [COMMUNICATION PROTOCOL](#communication-protocol)
+  - [API](#api)
+      - [REST API](#rest-api)
+      - [GRAPHQL](#graphql)
+      - [POSTMAN](#postman)
+  - [REST API VS. GRAPHQL](#rest-api-vs-graphql)
+  - [HOW DOES GRPC WORK?](#how-does-grpc-work)
+  - [WHAT IS A WEBHOOK?](#what-is-a-webhook)
+  - [HOW TO IMPROVE API PERFORMANCE?](#how-to-improve-api-performance)
+  - [HTTP 1.0 V/S HTTP 1.1 V/S HTTP 2.0 V/S HTTP 3.0 (QUIC)](#http-10-vs-http-11-vs-http-20-vs-http-30-quic)
+  - [SOAP VS REST VS GRAPHQL VS RPC](#soap-vs-rest-vs-graphql-vs-rpc)
+  - [CODE FIRST VS. API FIRST](#code-first-vs-api-first)
+  - [HTTP STATUS CODES](#http-status-codes)
+  - [WHAT DOES API GATEWAY DO?](#what-does-api-gateway-do)
+  - [HOW DO WE DESIGN EFFECTIVE AND SAFE APIs?](#how-do-we-design-effective-and-safe-apis)
+  - [TCP/IP ENCAPSULATION](#tcpip-encapsulation)
+  - [WHAT ARE THE COMMON LOAD-BALANCING ALGORITHMS?](#what-are-the-common-load-balancing-algorithms)
+  - [URL, URI, URN - DO YOU KNOW THE DIFFERENCES?](#url-uri-urn---do-you-know-the-differences)
+- [OOPS CONCEPT]
+    - []
+    - []
+    - []
+    - []
+- [CRYPTOGRAPHY](#cryptography)
+    - [TYPE OF CRYPTOGRAPHY](#type-of-cryptography)
+        - [SYMMETRIC KEY CRYPTOGRAPHY](#symmetric-key-cryptography)
+        - [HASH FUNCTIONS CRYPTOGRAPHY](#hash-functions-cryptography)
+        - [ASYMMETRIC KEY CRYPTOGRAPHY](#asymmetric-key-cryptography)
+    - [QUANTUM CRYPTOGRAPHY](#post-quantum-cryptography)
+        - [ALGORITHM](#algorithm)
+            - [RSA](#rsa)
+            - [ECC (ELLIPTIC CURVE CRYPTOGRPHY)](#ecc-elliptic-curve-cryptogrphy)
+    - [POST QUANTUM CRYPTOGRAPHY](#post-quantum-cryptography)
+- [PYTHON CONCEPT](#python-concept)
+    - [BASICS PYTHON](#basics-python)
+        - [STATIC AND DYNAMIC(USER DEFINE) INPUT](#static-and-dynamicuser-define-input)
+        - [DATA TYPES](#data-types)
+            - [STRING](#string)
+            - [TUPLE](#tuple)
+            - [LIST](#list)
+            - [DICTIONARY](#dictionary)
+        - [DATA STRUCTURE](#data-structure)
+            - [LINEAR DATA STRUCTURE](#linear-data-structure)
+                - [STATIC DATA STRUCTURE](#static-data-structure)
+                    - [ARRAY](#array)
+                - [DYNAMIC DATA STRUCTURE](#dynamic-data-structure)
+                    - [QUEUE](#queue)
+                    - [STACK](#stack)
+                    - [LINKED LIST](#linked-list)
+            - [NON LINEAR DATA STRUCTURE](#non-linear-data-structure)
+                - [TREE](#tree)
+                - [GRAPH](#graph)
+        - [CONDITION](#condition)
+            - [IF](#if)
+            - [ELSE](#else)
+            - [ELIF](#elif)
+        - [LOOPS](#loops)
+            - [FOR](#for)
+            - [WHILE](#while)
+        - [EXCEPTION](#exception)
+            - [TRY](#try)
+            - [EXCEPT](#except)
+        - [FUNCTION](#function)
+            - [BUILT IN](#built-in)
+                - [GLOBAL FUNCTION](#global-function)
+                - [LIBRARY BASED](#library-based)
+            - [USER DEFINE](#user-define)
+        - [RECURSION](#recursion)
+        - [FILE HANDLING](#file-handling)
+            - [TEXT FILE](#text-file)
+            - [BINARY FILE](#binary-file)
+            - [CSV FILE](#csv-files)
+    - [ADVANCE PYTHON](#advance-python)
+        - [NUMPY (LIBRARY)](#numpy)
+        - [PANDAS (LIBRARY)](#pandas)
+        - [MATPLOTLIB (LIBRARY)](#matplotlib)
+        - [PYSDR (IT IS USED TO WORK WITH RADIO WAVES)](#pysdr)
+- [C/C++ CONCEPT](#cc-concept)
+    - [FILE POINTER](#file-pointer)
+        - [DANGLING POINTER](#dangling-pointer)
+        - [DIRECT ADDRESSING](#direct-addressing)
+        - [INDIRECT ADDESSING](#indirect-addessing)
+    - [SEGMENT ADDRESS](#segment-address)
+
+
+# BASICS NOTES
+   - # COMPUTATION
+   - # STORAGE
+       - ## TYPE OF STORAGE
+          - ### OBJECT STORAGE
+          - ### VOLUME STORAGE
+       - ## CEPH
+       - ## VERCTORDB
+       - ## CACHE
+   - # NETWORKING
+   - # CLOUD COMPUTING
+        - ## BASICS OF CLOUD COMPUTING
+            - ### TYPE OF CLOUD COMPUTING (ON THE BAISCS OF SERVICE)
+                - #### IAAS (INFRASTRUCTURE AS A SERVICE)
+                - #### PAAS (PLATFORM AS A SERVICE)
+                - #### SAAS (SOFTWARE AS A SERVICE)
+                - #### CAAS (CODE AS A SERVICE)
+                - #### XAAS (UNKNOWN AS A SERVICE)
+            - ### TYPE OF CLOUD COMPUTING (ON THE BAISCS OF PROVIDER)
+                - #### PRIVATE CLOUD
+                - #### PUBLIC CLOUD
+                - #### HYBRID CLOUD
+                - #### PUBLIC CLOUD V/S PRIVATE CLOUD V/S HYBRID CLOUD
+        - ## PUBLIC CLOUD
+            - ### AWS(AMAZON)
+            - ### GCP(GOOGLE CLOUD SERVICE)
+            - ### AZURE (MICROSOFT)
+            - ### SERVICE COMPARISON BETWEEN AWS AND AZURE AND GCP
+        - ## PRIVATE CLOUD
+            - ### SERVICE COMPARISON BETWEEN AWS AND OPENSTACK
+            - ### OPENSTACK (PRIVATE CLOUD)
+            - ### PROMOX (PRIVATE CLOUD)
+        - ## SERVER
+            - ### DIFFERENCE BETWEEN NIGINX ,APACHE AND CADDY
+            - ### NGINIX (PROXY SERVER)
+                - #### WHY IS NGINX CALLED A “REVERSE” PROXY?
+            - ### APACHE (HTTP SERVER)
+            - ### CADDY (HTTPs SERVER)
+        - ## DEVOPS
+            - ### C GROUPS
+            - ### DOCKER
+            - ### CONTAINER ORCHESTRASTION
+                - #### DOCKER SWARM
+                - #### KUBERNETES (K8S)
+                - #### WHY WE USE K8S IN PLACE OF DOCKER SWARM??
+   - # LINUX
+        - ## UBUNTU
+   - # BLOCKCHAIN
+   - # COMMUNICATION PROTOCOL
+       - ## API
+           - ### REST API
+           - ### GRAPHQL
+           - ### POSTMAN
+        - ## REST API VS. GRAPHQL
+        - ## HOW DOES GRPC WORK?
+        - ## WHAT IS A WEBHOOK?
+        - ## HOW TO IMPROVE API PERFORMANCE?
+        - ## HTTP 1.0 V/S HTTP 1.1 V/S HTTP 2.0 V/S HTTP 3.0 (QUIC)
+        - ## SOAP VS REST VS GRAPHQL VS RPC
+        - ## CODE FIRST VS. API FIRST
+        - ## HTTP STATUS CODES
+        - ## WHAT DOES API GATEWAY DO?
+        - ## HOW DO WE DESIGN EFFECTIVE AND SAFE APIs?
+        - ## TCP/IP ENCAPSULATION
+        - ## WHAT ARE THE COMMON LOAD-BALANCING ALGORITHMS?
+        - ## URL, URI, URN - DO YOU KNOW THE DIFFERENCES?
+   - # CRYPTOGRAPHY
+        - ## TYPE OF CRYPTOGRAPHY
+            - ### SYMMETRIC KEY CRYPTOGRAPHY
+            - ### HASH FUNCTIONS CRYPTOGRAPHY
+            - ### ASYMMETRIC KEY CRYPTOGRAPHY
+        - ## QUANTUM CRYPTOGRAPHY
+            - ### ALGORITHM
+                - #### RSA
+                - #### ECC (ELLIPTIC CURVE CRYPTOGRPHY)
+        - ## POST QUANTUM CRYPTOGRAPHY
+   - # PYTHON CONCEPT
+        - ## BASICS PYTHON
+            - ### STATIC AND DYNAMIC(USER DEFINE) INPUT
+            - ### DATA TYPES
+                - #### STRING
+                - #### TUPLE
+                - #### LIST
+                - #### DICTIONARY
+            - ### DATA STRUCTURE
+                - #### LINEAR DATA STRUCTURE
+                    - ##### STATIC DATA STRUCTURE
+                        - ##### ARRAY
+                    - ##### DYNAMIC DATA STRUCTURE
+                        - ##### QUEUE
+                        - ##### STACK
+                        - ##### LINKED LIST
+                - #### NON LINEAR DATA STRUCTURE
+                    - ##### TREE
+                    - ##### GRAPH
+            - ### CONDITION
+                - #### IF
+                - #### ELSE
+                - #### ELIF
+            - ### LOOPS
+                - #### FOR
+                - #### WHILE
+            - ### EXCEPTION
+                - #### TRY
+                - #### EXCEPT
+            - ### FUNCTION
+                - #### BUILT IN
+                    - ##### GLOBAL FUNCTION
+                    - ##### LIBRARY BASED
+                - #### USER DEFINE
+            - ### RECURSION
+            - ### FILE HANDLING
+                - #### TEXT FILE
+                - #### BINARY FILE
+                - #### CSV FILES
+     - ## ADVANCE PYTHON
+        - ### NUMPY
+        - ### PANDAS
+        - ### MATPLOTLIB
+        - ### PYSDR
+   - # C/C++ CONCEPT
+        - ## FILE POINTER
+            - ### DANGLING POINTER
+            - ### DIRECT ADDRESSING
+            - ### INDIRECT ADDESSING
+        - ## SEGMENT ADDRESS
