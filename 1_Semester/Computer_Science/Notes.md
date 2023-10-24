@@ -1,4 +1,5 @@
 # ALL THE KEYWORDS I LEARNED IN MY FIRST SEMESTER ARE WRITTEN IN THIS FILE.
+<a href="https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Computer_Science/Image/photo_6287480587316998736_y.jpg",alt="computer science"></a>
 ## Table of Contents
 - [COMPUTER SCIENCE](#computer-science)
     - [BASICS NOTES](#basics-notes)
