@@ -1,4 +1,4 @@
-# HIERARCHY OF THIS FOLDER
+# HIERARCHY OF THIS REPOSITORY FOR EASY UNDERSTANDING
 # [1_Semester](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester)
    - ## [Computer_Science](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Computer_Science)
        - ### [Python_Practical](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Computer_Science/Python_Practical)
