@@ -52,18 +52,18 @@
                 - Write A Program To Define A Class Point With Coordinates X And Y As Attributes. Create Relevant Methods And Print The Objects. Also Define A Method Distance To Calculate The Distance Between Any Two Point Objects.
            - #### [ratnesh.txt](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Computer_Science/Python_Practical/ratnesh.txt)
                 - This text file is used in the above programs which required. 
-       - ### [Linux_command.md](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Computer_Science/)
+       - ### [Linux_command.md](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Computer_Science/Linux_command.md)
            - In this file I have written all the most important Linux commands.
-       - ### [Notes.md]
+       - ### [Notes.md](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Computer_Science/Notes.md)
            - In this file I have written all the key words which I have studied in my first semester.
-   - ## Ubuntu
-       - ### How_To_Install_Proxy_Server(nginx).md
+   - ## [Ubuntu](https://github.com/16ratneshkumar/1_Year/tree/main/1_Semester/Ubuntu)
+       - ### [How_To_Install_Proxy_Server(nginx).md](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Ubuntu/How_To_Install_Proxy_Server(nginx).md)
            - HOW TO INSTALL NGINX IN YOUR SERVER (PUBLIC IP) WITH HELP OF LINUX OS(UBUNTU).
-       - ### How_To_Install_Server(apache).md
+       - ### [How_To_Install_Server(apache).md](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Ubuntu/How_To_Install_Server(apache).md)
            - HOW TO INSTALL APACHE2 IN YOUR SERVER (PUBLIC IP) WITH HELP OF LINUX OS(UBUNTU).
-       - ### How_To_Install_Docker.md
+       - ### [How_To_Install_Docker.md](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Ubuntu/How_To_Install_Docker.md)
            - HOW TO INSTALL DOCKER IN YOUR SERVER (PUBLIC IP) WITH HELP OF LINUX OS(UBUNTU).
-       - ### How_To_Install_Minikube.md
+       - ### [How_To_Install_Minikube.md](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Ubuntu/How_To_Install_Minikube.md)
            - HOW TO INSTALL MINIKUBE IN YOUR SERVER (PUBLIC IP) WITH HELP OF LINUX OS(UBUNTU).
-       - ### How_To_Install_Openstack_By_devstack(deployer).md
+       - ### [How_To_Install_Openstack_By_devstack(deployer).md](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Ubuntu/How_To_Install_Openstack_By_devstack(deployer).md)
            - HOW TO INSTALL OPENSTACK WITH THE HELP OF DEVSTACK DEPLOYER IN YOUR SERVER (PUBLIC IP) WITH HELP OF LINUX OS(UBUNTU).
