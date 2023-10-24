@@ -47,20 +47,23 @@
                 - C. Print The Words In Reverse Order.
                 - D. Copy Even Lines Of The File To A File Named ‘File1’ And Odd Lines To Another File Named ‘File2’.
            - #### 12.py
+                -  
+           - ####13.py
+                - 
            - #### ratnesh.txt
-               - This text file is used in the above programs which required. 
+                - This text file is used in the above programs which required. 
        - ### Linux_command.md
            - In this file I have written all the most important Linux commands.
        - ### Notes.md
            - In this file I have written all the key words which I have studied in my first semester.
    - ## Ubuntu
        - ### How_To_Install_Proxy_Server(nginx).md
-           - HOW TO INSTALL NGINX IN YOUR SERVER (PUBLIC IP) WITH HELP OF LINUX OS(OPERTAING SOFTWARE).
+           - HOW TO INSTALL NGINX IN YOUR SERVER (PUBLIC IP) WITH HELP OF LINUX OS(UBUNTU).
        - ### How_To_Install_Server(apache).md
-           - HOW TO INSTALL APACHE2 IN YOUR SERVER (PUBLIC IP) WITH HELP OF LINUX OS(OPERTAING SOFTWARE).
+           - HOW TO INSTALL APACHE2 IN YOUR SERVER (PUBLIC IP) WITH HELP OF LINUX OS(UBUNTU).
        - ### How_To_Install_Docker.md
-           - HOW TO INSTALL DOCKER IN YOUR SERVER (PUBLIC IP) WITH HELP OF LINUX OS(OPERTAING SOFTWARE).
+           - HOW TO INSTALL DOCKER IN YOUR SERVER (PUBLIC IP) WITH HELP OF LINUX OS(UBUNTU).
        - ### How_To_Install_Minikube.md
-           - HOW TO INSTALL MINIKUBE IN YOUR SERVER (PUBLIC IP) WITH HELP OF LINUX OS(OPERTAING SOFTWARE).
+           - HOW TO INSTALL MINIKUBE IN YOUR SERVER (PUBLIC IP) WITH HELP OF LINUX OS(UBUNTU).
        - ### How_To_Install_Openstack_By_devstack(deployer).md
-           - HOW TO INSTALL OPENSTACK WITH THE HELP OF DEVSTACK DEPLOYER IN YOUR SERVER (PUBLIC IP) WITH HELP OF LINUX OS(OPERTAING SOFTWARE).
+           - HOW TO INSTALL OPENSTACK WITH THE HELP OF DEVSTACK DEPLOYER IN YOUR SERVER (PUBLIC IP) WITH HELP OF LINUX OS(UBUNTU).
