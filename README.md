@@ -47,9 +47,9 @@
                 - C. Print The Words In Reverse Order.
                 - D. Copy Even Lines Of The File To A File Named ‘File1’ And Odd Lines To Another File Named ‘File2’.
            - #### 12.py
-                - Write a function that accepts two strings and returns the indices of all the occurrences of the second string in the first string as a list. If the second string is not present in the first string then it should return -1.
+                - Write A Function That Accepts Two Strings And Returns The Indices Of All The Occurrences Of The Second String In The First String As A List. If The Second String Is Not Present In The First String Then It Should Return -1.
            - #### 13.py
-                - Write A Program to define a class Point with coordinates x and y as attributes. Create relevant methods and print the objects. Also define a method distance to calculate the distance between any two point objects.
+                - Write A Program To Define A Class Point With Coordinates X And Y As Attributes. Create Relevant Methods And Print The Objects. Also Define A Method Distance To Calculate The Distance Between Any Two Point Objects.
            - #### ratnesh.txt
                 - This text file is used in the above programs which required. 
        - ### Linux_command.md
