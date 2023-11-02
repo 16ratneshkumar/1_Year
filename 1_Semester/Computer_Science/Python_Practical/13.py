@@ -20,4 +20,4 @@ while choice=='y':
     p2.Print_point()
     print(p1.Calculate_Distance(p2))
     choice=input("Do you want to use again(y/n):").lower()
-print("Thank you for use my program")
+print("Thank you for using my program")
