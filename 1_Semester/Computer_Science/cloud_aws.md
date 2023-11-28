@@ -35,6 +35,9 @@
   - Infrastructure as code.
   - Uses EBS and instance store for data.
   - Types: General, CPU, RAM, Compute, Memory, Accelerated, Storage.
+  - ### [type of ec2  instances](https://aws.amazon.com/ec2/instance-types/)
+      - **General Purpose**
+          -General purpose instances provide a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads. These instances are ideal for applications that use these resources in equal proportions such as web servers and code repositories. 
 
 - **ELB (Elastic Load Balancer):**
   - Horizontal scaling implementation.
@@ -152,3 +155,5 @@
 - The AWS SDK (Software Development Kit) provides developers with tools, libraries, and APIs to build applications that interact with various Amazon Web Services (AWS). It offers programming interfaces in various languages such as Python, Java, JavaScript/Node.js, Ruby, .NET, and more, enabling developers to integrate AWS services into their applications easily.The SDK abstracts the complexities of making direct HTTP requests to AWS APIs and provides a higher-level interface, making it easier to interact with services like S3, EC2, DynamoDB, SNS, SQS, and others. Developers can perform tasks such as creating, managing, and deleting resources, handling authentication, managing access control, and integrating AWS functionalities seamlessly within their applications using the SDK.
 ## cloudformation
 - AWS CloudFormation is a service provided by Amazon Web Services (AWS) that allows users to define and manage their infrastructure as code (IaC). It enables the creation, management, and provisioning of AWS resources in a declarative manner using templates.With CloudFormation, users can define a template (typically written in YAML or JSON) that describes the desired AWS infrastructure configuration, including resources like EC2 instances, S3 buckets, databases, load balancers, security groups, IAM policies, and more. This template represents the complete architecture of an application or system.Once the template is defined, CloudFormation takes care of provisioning and managing the resources specified in the template, handling dependencies and ensuring the defined configuration is deployed consistently and predictably across different environments.CloudFormation templates can be version-controlled, reused, and shared, allowing for easy replication of infrastructure setups, simplifying deployments, and providing a streamlined approach to managing AWS resources. This service helps in automating the provisioning of infrastructure and promotes a consistent, repeatable, and efficient deployment process.
+## aws fargate
+- AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on building applications without managing servers. Moving tasks such as server management, resource allocation, and scaling to AWS does not only improve your operational posture, but also accelerates the process of going from idea to production on the cloud, and lowers the total cost of ownership.
