@@ -36,18 +36,18 @@
   - Uses EBS and instance store for data.
   - Types: General, CPU, RAM, Compute, Memory, Accelerated, Storage.
 ### [type of ec2  instances](https://aws.amazon.com/ec2/instance-types/)
-      - **General Purpose**
-          -General purpose instances provide a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads. These instances are ideal for applications that use these resources in equal proportions such as web servers and code repositories. 
-      - **Compute Optimized**
-        - Compute Optimized instances are ideal for compute bound applications that benefit from high performance processors. Instances belonging to this category are well suited for batch processing workloads, media transcoding, high performance web servers, high performance computing (HPC), scientific modeling, dedicated gaming servers and ad server engines, machine learning inference and other compute intensive applications.
-    - **Memory Optimized**
-      - Memory optimized instances are designed to deliver fast performance for workloads that process large data sets in memory.
-    - **Accelerated Computing**
-      - Accelerated computing instances use hardware accelerators, or co-processors, to perform functions, such as floating point number calculations, graphics processing, or data pattern matching, more efficiently than is possible in software running on CPUs.
-      - **Storage Optimized**
-        - Storage optimized instances are designed for workloads that require high, sequential read and write access to very large data sets on local storage. They are optimized to deliver tens of thousands of low-latency, random I/O operations per second (IOPS) to applications.
-      - **HPC Optimized**
-        - High performance computing (HPC) instances are purpose built to offer the best price performance for running HPC workloads at scale on AWS. HPC instances are ideal for applications that benefit from high-performance processors such as large, complex simulations and deep learning workloads.
+  - **General Purpose**
+      -General purpose instances provide a balance of compute, memory and networking resources, and can be used for a variety of diverse workloads. These instances are ideal for applications that use these resources in equal proportions such as web servers and code repositories. 
+  - **Compute Optimized**
+    - Compute Optimized instances are ideal for compute bound applications that benefit from high performance processors. Instances belonging to this category are well suited for batch processing workloads, media transcoding, high performance web servers, high performance computing (HPC), scientific modeling, dedicated gaming servers and ad server engines, machine learning inference and other compute intensive applications.
+  - **Memory Optimized**
+    - Memory optimized instances are designed to deliver fast performance for workloads that process large data sets in memory.
+  - **Accelerated Computing**
+    - Accelerated computing instances use hardware accelerators, or co-processors, to perform functions, such as floating point number calculations, graphics processing, or data pattern matching, more efficiently than is possible in software running on CPUs.
+    - **Storage Optimized**
+      - Storage optimized instances are designed for workloads that require high, sequential read and write access to very large data sets on local storage. They are optimized to deliver tens of thousands of low-latency, random I/O operations per second (IOPS) to applications.
+    - **HPC Optimized**
+      - High performance computing (HPC) instances are purpose built to offer the best price performance for running HPC workloads at scale on AWS. HPC instances are ideal for applications that benefit from high-performance processors such as large, complex simulations and deep learning workloads.
 - **ELB (Elastic Load Balancer):**
   - Horizontal scaling implementation.
   - Types: Classic, Application (Layer 7), Network (Layer 4).
