@@ -223,3 +223,27 @@ Here's the information formatted in Markdown:
 - **Functionality:** Converts text into lifelike speech in various languages and voices.
 - **Benefits:** Enables the creation of applications with speech-enabled capabilities, such as accessibility features or automated voice responses.
 ```
+### Amazon S3 (Simple Storage Service):
+
+- **Use Cases:**
+  1. **Data Backup and Archiving:** S3 is commonly used for backup and long-term archiving of data due to its durability and scalability.
+  2. **Static Website Hosting:** Ideal for hosting static websites, storing HTML, CSS, images, and other assets.
+  3. **Media Storage and Distribution:** Serves as a repository for storing and delivering media files, such as images, videos, and audio files.
+  4. **Data Lakes and Analytics:** Utilized as a data lake for storing and analyzing vast amounts of unstructured data in conjunction with analytics services like AWS Athena, Redshift, etc.
+  5. **Disaster Recovery and Backup:** Organizations leverage S3 as part of their disaster recovery strategies due to its durability and availability across multiple regions.
+
+### Amazon EBS (Elastic Block Store):
+
+- **Use Cases:**
+  1. **Block-Level Storage for EC2 Instances:** EBS volumes are used as block-level storage for EC2 instances, providing persistent storage.
+  2. **Database Storage:** Commonly used for hosting databases requiring persistent and high-performance storage, ensuring data durability and consistency.
+  3. **Development and Testing:** EBS volumes serve as reliable storage for development, testing, and staging environments, allowing for easy snapshot backups.
+  4. **High-Performance Computing:** Utilized in applications requiring low-latency access to data and high-throughput performance, such as computational simulations and analytics.
+
+### Amazon EFS (Elastic File System):
+
+- **Use Cases:**
+  1. **Shared File Storage:** EFS is suitable for shared file storage among multiple EC2 instances within a VPC, enabling multiple instances to access the same data concurrently.
+  2. **Content Management and Collaboration:** Used for storing and sharing files in applications that require multiple users to collaborate and access the same set of files simultaneously.
+  3. **Web Serving and CMS:** EFS can serve as a backend storage for web servers, content management systems (CMS), and applications that require a centralized file system accessible by multiple instances.
+  4. **Big Data and Analytics:** Deployed in big data and analytics workflows where multiple compute instances need shared access to the same dataset.
