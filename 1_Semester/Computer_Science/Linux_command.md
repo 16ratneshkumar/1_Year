@@ -200,3 +200,130 @@ output contents of file as it grows</td>
 </tr>
 
 </table>
+
+
+
+
+
+
+
+Certainly! Below is the previously provided CloudFormation template for creating an EC2 instance, S3 bucket, Elastic Load Balancer, and Auto Scaling Group formatted as Markdown code blocks.
+
+### YAML (YML) CloudFormation Template in Markdown:
+
+```yaml
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Create an EC2 instance, S3 bucket, ELB, and Auto Scaling Group
+
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: my-unique-bucket-name  # Replace with your bucket name
+
+  MyLaunchConfiguration:
+    Type: AWS::AutoScaling::LaunchConfiguration
+    Properties:
+      ImageId: ami-xxxxxxxxxxxxx  # Replace with your AMI ID
+      InstanceType: t2.micro
+      KeyName: my-keypair         # Replace with your Key Pair name
+      UserData: |
+        #!/bin/bash
+        echo "Hello from UserData!"
+      SecurityGroups:
+        - sg-xxxxxxxx              # Replace with your Security Group ID
+      IamInstanceProfile: your-instance-profile  # Replace with your IAM instance profile ARN
+
+  MyAutoScalingGroup:
+    Type: AWS::AutoScaling::AutoScalingGroup
+    Properties:
+      LaunchConfigurationName: !Ref MyLaunchConfiguration
+      MinSize: 1
+      MaxSize: 3
+      DesiredCapacity: 2
+      AvailabilityZones:
+        - us-east-1a  # Replace with your desired availability zones
+      LoadBalancerNames:
+        - !Ref MyElasticLoadBalancer
+      HealthCheckType: ELB
+      HealthCheckGracePeriod: 300
+
+  MyElasticLoadBalancer:
+    Type: AWS::ElasticLoadBalancing::LoadBalancer
+    Properties:
+      AvailabilityZones:
+        - us-east-1a  # Replace with your desired availability zones
+      Listeners:
+        - LoadBalancerPort: '80'
+          InstancePort: '80'
+          Protocol: HTTP
+      HealthCheck:
+        Target: 'HTTP:80/'
+        HealthyThreshold: '3'
+        UnhealthyThreshold: '5'
+        Interval: '30'
+        Timeout: '5'
+```
+
+### JSON CloudFormation Template in Markdown:
+
+```json
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "Create an EC2 instance, S3 bucket, ELB, and Auto Scaling Group",
+  "Resources": {
+    "MyS3Bucket": {
+      "Type": "AWS::S3::Bucket",
+      "Properties": {
+        "BucketName": "my-unique-bucket-name"  // Replace with your bucket name
+      }
+    },
+    "MyLaunchConfiguration": {
+      "Type": "AWS::AutoScaling::LaunchConfiguration",
+      "Properties": {
+        "ImageId": "ami-xxxxxxxxxxxxx",  // Replace with your AMI ID
+        "InstanceType": "t2.micro",
+        "KeyName": "my-keypair",         // Replace with your Key Pair name
+        "UserData": "#!/bin/bash\n\necho \"Hello from UserData!\"",
+        "SecurityGroups": ["sg-xxxxxxxx"],  // Replace with your Security Group ID
+        "IamInstanceProfile": "your-instance-profile"  // Replace with your IAM instance profile ARN
+      }
+    },
+    "MyAutoScalingGroup": {
+      "Type": "AWS::AutoScaling::AutoScalingGroup",
+      "Properties": {
+        "LaunchConfigurationName": { "Ref": "MyLaunchConfiguration" },
+        "MinSize": 1,
+        "MaxSize": 3,
+        "DesiredCapacity": 2,
+        "AvailabilityZones": ["us-east-1a"],  // Replace with your desired availability zones
+        "LoadBalancerNames": [{ "Ref": "MyElasticLoadBalancer" }],
+        "HealthCheckType": "ELB",
+        "HealthCheckGracePeriod": 300
+      }
+    },
+    "MyElasticLoadBalancer": {
+      "Type": "AWS::ElasticLoadBalancing::LoadBalancer",
+      "Properties": {
+        "AvailabilityZones": ["us-east-1a"],  // Replace with your desired availability zones
+        "Listeners": [
+          {
+            "LoadBalancerPort": "80",
+            "InstancePort": "80",
+            "Protocol": "HTTP"
+          }
+        ],
+        "HealthCheck": {
+          "Target": "HTTP:80/",
+          "HealthyThreshold": "3",
+          "UnhealthyThreshold": "5",
+          "Interval": "30",
+          "Timeout": "5"
+        }
+      }
+    }
+  }
+}
+```
+
+Please replace the placeholder values with your actual details before deploying the CloudFormation templates.
