@@ -1,0 +1,17 @@
+/* Solve a system of Homogeneous and non-homogeneous equations using Gauss elimination method. 
+Non-homogeneous equation
+-5x-2y+2z=14
+3x+1y-1z=-8
+2x+2y-1z=-3*/
+
+/*Homogeneous equation
+x+y+7z=0
+2x+3y+17z=0
+x+2y+z=0*/
+
+equation1:read("enter first equation:");
+equation2:read("enter second equation:");
+equation3:read("enter third equation:");
+Matrix:augcoefmatrix([equation1,equation2,equation3],[x,y,z]);
+Echelon:echelon(Matrix)$;
+Solution:linsolve([Echelon[1][1]*x+Echelon[1][2]*y+Echelon[1][3]*z=Echelon[1][4],Echelon[2][2]*y+Echelon[2][3]*z=Echelon[2][4], Echelon[3][3]*z=Echelon[1][4]], [x,y,z]);

@@ -1,0 +1,8 @@
+/* Generate basis of column space, null space, row space and left null space of a matrix space. */
+row:read("enter your matrix row:")$;
+col:read("enter your matrix column :")$;
+mat:entermatrix(row,col);
+ColumnSpace:columnspace(mat);
+NullSpace:nullspace(mat);
+RowSpace:columnspace(transpose(mat));
+leftNullSpace:nullspace(transpose(mat));

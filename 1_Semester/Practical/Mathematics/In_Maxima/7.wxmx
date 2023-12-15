@@ -1,0 +1,12 @@
+/* Check the linear dependence of vectors. Generate a linear combination of given vectors of Rn/ matrices of the same size and find the transition matrix of given matrix space. */
+
+load("eigen")$;
+vector1:covect(read("Enter your first vector in square bracket []:"))$;
+vector2:covect(read("Enter your second vector in square bracket []:"))$;
+vector3:covect(read("Enter your third vector in square bracket []:"))$;
+mat:addcol(vector1,vector2,vector3);
+Echelon:echelon(mat)$;
+Rank:rank(mat);
+if Rank=3 then("vector are linear independence")else("vector are linear dependence");
+for i: 1 thru 3 do
+        poly:print(mat[i][1]*"x"+mat[i][2]*"y"+mat[i][3]*"z"=0);

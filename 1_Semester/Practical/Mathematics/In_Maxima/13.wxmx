@@ -1,0 +1,7 @@
+/* Compute Curl of a vector field.*/
+
+load("vect")$;
+F(x,y,z):=read("Enter your Function (like [x,2*y,exp(z*y)]):");
+Curl:curl(F(x,y,z));                      
+Express_curl:express(Curl);
+Solution_curl:ev(Express_curl,diff);

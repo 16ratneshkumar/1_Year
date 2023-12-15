@@ -1,0 +1,7 @@
+/* Compute Divergence of a vector field. */
+
+load("vect")$;
+F(x,y,z):=read("Enter your Function (like [x,2*y,exp(z*y)]):");
+Div:div(F(x,y,z));                           
+Express_div:express(Div);
+Solution_div:ev(Express_div,diff);

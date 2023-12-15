@@ -1,0 +1,7 @@
+/* Compute Gradient of a scalar field. */
+
+load("vect")$;
+F(x,y,z):=read("Enter your Function (like x*y*exp(z^2)):");
+Grad:grad(F(x,y,z));
+Express_grad:express(Grad);                                     
+Solution:ev(Express_grad,diff);

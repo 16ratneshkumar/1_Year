@@ -1,0 +1,13 @@
+/* Find the orthonormal basis of a given vector space using the Gram-Schmidt orthogonalization process. */
+
+load("eigen")$;
+x: entermatrix (3,4);
+y: gramschmidt (x);
+a:y[1][4];
+f1:(y[1][1]^2+y[1][2]^2+y[1][3]^2+y[1][4]^2)^0.5$;
+row1:y[1]/%$;
+f2:(y[2][1]^2+y[2][2]^2+y[2][3]^2+y[2][4]^2)^0.5$;
+row2:y[2]/%$;
+f3:(y[3][1]^2+y[3][2]^2+y[3][3]^2+y[3][4]^2)^0.5$;
+row3:y[3]/%$;
+Orthonormal_Basis:addrow(matrix(row1),matrix(row2),matrix(row3));

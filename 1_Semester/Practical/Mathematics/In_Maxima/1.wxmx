@@ -1,0 +1,9 @@
+/* Create and transform vectors and matrices (the transpose vector (matrix) conjugate transpose of a vector (matrix)).*/
+
+load("eigen")$;
+row:read("enter your matrix row:")$;
+col:read("enter your matrix column :")$;
+Matrix:entermatrix(row,col);
+Vector:covect(read("Enter your vector in square bracket []:"));
+Transpose_Matrix:transpose(Matrix);
+Transpose_Vector:transpose(Vector);

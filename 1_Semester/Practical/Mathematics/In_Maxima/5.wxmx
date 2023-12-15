@@ -1,0 +1,10 @@
+/* Solve a system of Homogeneous equations using the Gauss Jordan method.
+2x+2y+2z=0
+x+2y+z=0
+3x+y-z=0*/
+
+Matrix:matrix([2,2,2,0],[1,2,1,0],[3,1,-1,0]);
+Echelon:echelon(Matrix);
+Oper:row(Echelon,1)-(row(Echelon,2)+row(Echelon,3));
+Rref:addrow(Oper,row(Echelon,2),row(Echelon,3));
+Solution:linsolve([x=0, y=0, z=0], [x,y,z]);

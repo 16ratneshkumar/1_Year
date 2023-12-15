@@ -1,0 +1,9 @@
+/* Find cofactors, determinant, adjoint and inverse of a matrix.*/ 
+
+row:read("enter your matrix row:")$;
+col:read("enter your matrix column :")$;
+Matrix:entermatrix(row,col);
+Cofactors:transpose(adjoint(Matrix));
+Determinant:determinant(Matrix);
+Adjoint:adjoint(Matrix);
+Inverse:invert(Matrix);
