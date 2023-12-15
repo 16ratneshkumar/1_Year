@@ -1,4 +1,4 @@
-"""2. WAP to accept a number ‘n’ and
+""" WAP to accept a number ‘n’ and
          a. Check if ’n’ is prime
          b. Generate all prime numbers till ‘n’
          c. Generate first ‘n’ prime numbers"""

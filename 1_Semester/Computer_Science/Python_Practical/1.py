@@ -1,4 +1,4 @@
-#1. WAP to find the roots of a quadratic equation.
+# WAP to find the roots of a quadratic equation.
 def cal_root():
     a=float(input("Enter the coefficient of x²::"))
     b=float(input("Enter the coefficient of x::"))

@@ -1,4 +1,5 @@
-'''8. WAP to create a list of the cubes of only the even integers appearing in the input list (mayhave elements of other types also) using the following:
+''' WAP to create a list of the cubes of only the even integers appearing in the input list (may
+have elements of other types also) using the following:
     a. 'for' loop
     b. list comprehension'''
 input_lst=list(map(int,input("Enter the number of list with ',' ::").split(',')))

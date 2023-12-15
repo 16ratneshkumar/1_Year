@@ -1,4 +1,4 @@
-"""Consider a tuple t1=(1, 2, 5, 7, 9, 2, 4, 6, 8, 10). WAP to perform following operations:
+""" Consider a tuple t1=(1, 2, 5, 7, 9, 2, 4, 6, 8, 10). WAP to perform following operations:
     a) Print half the values of the tuple in one line and the other half in the next line.
     b) Print another tuple whose values are even numbers in the given tuple.
     c) Concatenate a tuple t2=(11,13,15) with t1.

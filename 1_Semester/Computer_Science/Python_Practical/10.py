@@ -1,4 +1,4 @@
-"""5. WAP to perform the following operations on a string
+""" WAP to perform the following operations on a string
     a. Find the frequency of a character in a string.
     b. Replace a character by another character in a string.
     c. Remove the first occurrence of a character from a string.

@@ -1,4 +1,4 @@
-"""WAP to swap the first n characters of two strings."""
+""" WAP to swap the first n characters of two strings."""
 def swap_str():
     str1=input("Enter your 1 string:: ")
     str2=input("Enter your 2 string:: ")

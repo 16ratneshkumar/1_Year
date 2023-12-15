@@ -1,3 +1,4 @@
+""" Write A Program To Accept A Name From A User. Raise And Handle Appropriate Exception(S) If The Text Entered By The User Contains Digits And/Or Special Characters."""
 def name():
     user_input=input("Enter your name:: ")
     if user_input.isalpha():

@@ -1,4 +1,4 @@
-'''9. WAP to read a file and
+''' WAP to read a file and
     a. Print the total number of characters, words and lines in the file.
     b. Calculate the frequency of each character in the file. Use a variable of dictionary type to maintain the count.
     c. Print the words in reverse order.

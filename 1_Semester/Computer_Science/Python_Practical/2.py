@@ -1,4 +1,4 @@
-"""4. WAP that accepts a character and performs the following:
+""" WAP that accepts a character and performs the following:
     a. print whether the character is a letter or numeric digit or a special character.
     b. if the character is a letter, print whether the letter is uppercase or lowercase.
     c. if the character is a numeric digit, prints its name in text (e.g., if input is 9, output is NINE)."""

@@ -1,4 +1,4 @@
-#WAP to create a pyramid of the character ‘*’ and a reverse pyramid.
+# WAP to create a pyramid of the character ‘*’ and a reverse pyramid.
 def upper_pyramid():
     num=int(input("Enter how many row's triangle you want?:: "))
     con=num-1
