@@ -32,36 +32,36 @@
                     - [10.a]
                     - [11.cpu]
                     - [11.a]
-          - ### [Mathematics_Practical](https://github.com/16ratneshkumar/1_Year/tree/main/1_Semester/Practical/Mathematics)
+          - ### [Mathematics_Practical](https://github.com/16ratneshkumar/1_Year/tree/main/1_Semester/Practical/Mathematics_Practical)
                - Here Are Some Practical Programs That We Made During Our First Semester Of Computer Science In Mathematics.
                
-               - #### [In Maxima](https://github.com/16ratneshkumar/1_Year/tree/main/1_Semester/Practical/Mathematics/In_Maxima)
-                    - #### [1.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/1.wxmx)
+               - #### [In Maxima](https://github.com/16ratneshkumar/1_Year/tree/main/1_Semester/Practical/Mathematics_Practical/In_Maxima)
+                    - #### [1.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/1.wxmx)
                          - Create And Transform Vectors And Matrices (The Transpose Vector (Matrix) Conjugate Transpose Of A Vector (Matrix)).
-                    - #### [2.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/2.wxmx)
+                    - #### [2.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/2.wxmx)
                          - Generate The Matrix Into Echelon Form And Find Its Rank.
-                    - #### [3.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/3.wxmx)
+                    - #### [3.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/3.wxmx)
                          - Find Cofactors, Determinant, Adjoint And Inverse Of A Matrix.
-                    - #### [4.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/4.wxmx)
+                    - #### [4.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/4.wxmx)
                          - Solve A System Of Homogeneous And Non-Homogeneous Equations Using Gauss Elimination Method.
-                    - #### [5.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/5.wxmx)
+                    - #### [5.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/5.wxmx)
                          - $ Solve A System Of Homogeneous Equations Using The Gauss Jordan Method.
-                    - #### [6.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/6.wxmx)
+                    - #### [6.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/6.wxmx)
                          - Generate Basis Of Column Space, Null Space, Row Space And Left Null Space Of A Matrix Space.
-                    - #### [7.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/7.wxmx)
+                    - #### [7.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/7.wxmx)
                          - Check The Linear Dependence Of Vectors. Generate A Linear Combination Of Given Vectors Of Rn/ Matrices Of The Same Size And Find The Transition Matrix Of Given Matrix Space.
-                    - #### [8.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/8.wxmx)
+                    - #### [8.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/8.wxmx)
                          - Find The Orthonormal Basis Of Given Vectorspace Using The Gram-Schmidt Orthogonalization Process.
-                    - #### [9.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/9.wxmx)
+                    - #### [9.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/9.wxmx)
                          - $ Check The Diagonalizable Property Of Matrices And Find The Corresponding Eigenvalue And Verify The Cayley- Hamilton Theorem.
-                    - #### [10.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/10.wxmx)
+                    - #### [10.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/10.wxmx)
                          - $ Application Of Linear Algebra: Coding And Decoding Of Messages Using Non Singular Matrices.
                          <br/>Eg Code “Linear Algebra Is Fun” And Then Decode It.
-                    - #### [11.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/11.wxmx)
+                    - #### [11.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/11.wxmx)
                          - Compute Gradient Of A Scalar Field.
-                    - #### [12.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/12.wxmx)
+                    - #### [12.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/12.wxmx)
                          - Compute Gradient Of A Scalar Field.
-                    - #### [13.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/13.wxmx)
+                    - #### [13.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/13.wxmx)
                          - Compute Curl Of A Vector Field.
                - #### [In Python]
                     - #### [1.py]
