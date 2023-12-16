@@ -2,71 +2,154 @@
 # [1_Semester](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester)
    - ## [Computer_Science](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Computer_Science)
        - ### [Linux_command.md](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Computer_Science/Linux_command.md)
-           - In this file I have written all the most important Linux commands.
+           - In This File I Have Written All The Most Important Linux Commands.
        - ### [Notes.md](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Computer_Science/Notes.md)
-           - In this file I have written all the key words which I have studied in my first semester.
+           - In This File I Have Written All The Key Words Which I Have Studied In My First Semester.
        - ### [Practical](https://github.com/16ratneshkumar/1_Year/tree/main/1_Semester/Practical)
-          - ### [Mathematics_Practical]
-               <h4> IN THIS FOLDER I HAVE COMPLETED MY BSC (HONS) COMPUTER SCIENCE MATHEMATICS PRACTICAL. </h4>
+          - Here Are Some Practical Programs That We Made During Our First Semester Of Computer Science.
+          - ### [Computer_System_Architecture_Practical]
+               - Here Are Some Practical Programs That We Made During Our First Semester Of Computer Science In 
+               Computer_System_Architecture.
+               - [In_CpuSim]
+                    - [1.cpu]
+                         - Base machine Of all practical are done below.
+                    - [2.cpu]
+                    - [3.cpu]
+                    - [3.a]
+                    - [4.cpu]
+                    - [4.a]
+                    - [5.cpu]
+                    - [5.a]
+                    - [6.cpu]
+                    - [6.a]
+                    - [7.cpu]
+                    - [7.a]
+                    - [8.cpu]
+                    - [8.a]
+                    - [9.cpu]
+                    - [9.a]
+                    - [10.cpu]
+                    - [10.a]
+                    - [11.cpu]
+                    - [11.a]
+          - ### [Mathematics_Practical](https://github.com/16ratneshkumar/1_Year/tree/main/1_Semester/Practical/Mathematics)
+               - Here Are Some Practical Programs That We Made During Our First Semester Of Computer Science In Mathematics.
+               
+               - #### [In Maxima](https://github.com/16ratneshkumar/1_Year/tree/main/1_Semester/Practical/Mathematics/In_Maxima)
+                    - #### [1.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/1.wxmx)
+                         - Create And Transform Vectors And Matrices (The Transpose Vector (Matrix) Conjugate Transpose Of A Vector (Matrix)).
+                    - #### [2.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/2.wxmx)
+                         - Generate The Matrix Into Echelon Form And Find Its Rank.
+                    - #### [3.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/3.wxmx)
+                         - Find Cofactors, Determinant, Adjoint And Inverse Of A Matrix.
+                    - #### [4.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/4.wxmx)
+                         - Solve A System Of Homogeneous And Non-Homogeneous Equations Using Gauss Elimination Method.
+                    - #### [5.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/5.wxmx)
+                         - $ Solve A System Of Homogeneous Equations Using The Gauss Jordan Method.
+                    - #### [6.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/6.wxmx)
+                         - Generate Basis Of Column Space, Null Space, Row Space And Left Null Space Of A Matrix Space.
+                    - #### [7.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/7.wxmx)
+                         - Check The Linear Dependence Of Vectors. Generate A Linear Combination Of Given Vectors Of Rn/ Matrices Of The Same Size And Find The Transition Matrix Of Given Matrix Space.
+                    - #### [8.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/8.wxmx)
+                         - Find The Orthonormal Basis Of Given Vectorspace Using The Gram-Schmidt Orthogonalization Process.
+                    - #### [9.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/9.wxmx)
+                         - $ Check The Diagonalizable Property Of Matrices And Find The Corresponding Eigenvalue And Verify The Cayley- Hamilton Theorem.
+                    - #### [10.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/10.wxmx)
+                         - $ Application Of Linear Algebra: Coding And Decoding Of Messages Using Non Singular Matrices.
+                         <br/>Eg Code “Linear Algebra Is Fun” And Then Decode It.
+                    - #### [11.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/11.wxmx)
+                         - Compute Gradient Of A Scalar Field.
+                    - #### [12.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/12.wxmx)
+                         - Compute Gradient Of A Scalar Field.
+                    - #### [13.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics/In_Maxima/13.wxmx)
+                         - Compute Curl Of A Vector Field.
+               - #### [In Python]
+                    - #### [1.py]
+                         - Create And Transform Vectors And Matrices (The Transpose Vector (Matrix) Conjugate Transpose Of A Vector (Matrix)).
+                    - #### [2.py]
+                         - Generate The Matrix Into Echelon Form And Find Its Rank.
+                    - #### [3.py]
+                         - Find Cofactors, Determinant, Adjoint And Inverse Of A Matrix.
+                    - #### [4.py]
+                         - Solve A System Of Homogeneous And Non-Homogeneous Equations Using Gauss Elimination Method.
+                    - #### [5.py]
+                         - Solve A System Of Homogeneous Equations Using The Gauss Jordan Method.
+                    - #### [6.py]
+                         - Generate Basis Of Column Space, Null Space, Row Space And Left Null Space Of A Matrix Space.
+                    - #### [7.py]
+                         - Check The Linear Dependence Of Vectors. Generate A Linear Combination Of Given Vectors Of Rn/ Matrices Of The Same Size And Find The Transition Matrix Of Given Matrix Space.
+                    - #### [8.py]
+                         - Find The Orthonormal Basis Of Given Vectorspace Using The Gram-Schmidt Orthogonalization Process.
+                    - #### [9.py]
+                         - $ Check The Diagonalizable Property Of Matrices And Find The Corresponding Eigenvalue And Verify The Cayley- Hamilton Theorem.
+                    - #### [10.py]
+                         - $ Application Of Linear Algebra: Coding And Decoding Of Messages Using Non Singular Matrices.
+                         <br/>Eg Code “Linear Algebra Is Fun” And Then Decode It.
+                    - #### [11.py]
+                         - Compute Gradient Of A Scalar Field.
+                    - #### [12.py]
+                         - Compute Gradient Of A Scalar Field.
+                    - #### [13.py]
+                         - Compute Curl Of A Vector Field.
           - ### [Python_Practical](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical)
-               <h4> IN THIS FOLDER I HAVE COMPLETED MY BSC (HONS) COMPUTER SCIENCE PYTHON PRACTICAL. </h4>
+               - Here Are Some Practical Programs That We Made During Our First Semester Of Computer Science In Python Practical.
 
-           - #### [1.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/1.py)
-                - Write A Program To Find The Roots Of A Quadratic Equation.
-           - #### [2.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/2.py)
-                - Write A Program That Accepts A Character And Performs The Following:
-                - A. Print Whether The Character Is A Letter Or Numeric Digit Or A Special Character.
-                - B. If The Character Is A Letter, Print Whether The Letter Is Uppercase Or Lowercase.
-                - C. If The Character Is A Numeric Digit, Prints Its Name In Text (E.G., If Input Is 9, Output Is NINE).
-           - #### [3.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/3.py)
-                - Write A Program To Create A Pyramid Of The Character ‘*’ And A Reverse Pyramid.
-           - #### [4.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/4.py)
-                - Consider A Tuple T1=(1, 2, 5, 7, 9, 2, 4, 6, 8, 10).Write A Program To Perform Following Operations:
-                - A. Print Half The Values Of The Tuple In One Line And The Other Half In The Next Line.
-                - B. Print Another Tuple Whose Values Are Even Numbers In The Given Tuple.
-                - C. Concatenate A Tuple T2=(11,13,15) With T1.
-                - D. Return Maximum And Minimum Value From This Tuple.
-           - #### [5.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/5.py)
-                - Write A Program To Accept A Name From A User. Raise And Handle Appropriate Exception(S) If The Text Entered By The User Contains Digits And/Or Special Characters.
-           - #### [6.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/6.py)
-                - Write A Function That Prints A Dictionary Where The Keys Are Numbers Between 1 And 5 And The Values Are Cubes Of The Keys.
-           - #### [7.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/7.py)
-                - Write A Program To Create A List Of The Cubes Of Only The Even Integers Appearing In The Input List (Mayhave Elements Of Other Types Also) Using The Following:
-                - A. 'for' Loop
-                - B. List Comprehension
-           - #### [8.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/8.py)
-                - Write A Program To Accept A Number ‘N’ And
-                - A. Check If ’N’ Is Prime
-                - B. Generate All Prime Numbers Till ‘N’
-                - C. Generate First ‘N’ Prime Numbers.
-           - #### [9.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/9.py)
-                - Write A Program To Swap The First N Characters Of Two Strings.
-           - #### [10.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/10.py)
-                - Write A Program To Perform The Following Operations On A String
-                - A. Find The Frequency Of A Character In A String.
-                - B. Replace A Character By Another Character In A String.
-                - C. Remove The First Occurrence Of A Character From A String.
-                - D. Remove All Occurrences Of A Character From A String.
-           - #### [11.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/11.py)
-                - Write A Program To Read A File And
-                - A. Print The Total Number Of Characters, Words And Lines In The File.
-                - B. Calculate The Frequency Of Each Character In The File. Use A Variable Of Dictionary Type To Maintain The Count.
-                - C. Print The Words In Reverse Order.
-                - D. Copy Even Lines Of The File To A File Named ‘File1’ And Odd Lines To Another File Named ‘File2’.
-           - #### [12.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/12.py)
-                - Write A Function That Accepts Two Strings And Returns The Indices Of All The Occurrences Of The Second String In The First String As A List. If The Second String Is Not Present In The First String Then It Should Return -1.
-           - #### [13.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/13.py)
-                - Write A Program To Define A Class Point With Coordinates X And Y As Attributes. Create Relevant Methods And Print The Objects. Also Define A Method Distance To Calculate The Distance Between Any Two Point Objects.
-           - #### [ratnesh.txt](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/ratnesh.txt)
-                - This text file is used in the above programs which required. 
+               - #### [1.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/1.py)
+                    - Write A Program To Find The Roots Of A Quadratic Equation.
+               - #### [2.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/2.py)
+                    - Write A Program That Accepts A Character And Performs The Following:
+                    - A. Print Whether The Character Is A Letter Or Numeric Digit Or A Special Character.
+                    - B. If The Character Is A Letter, Print Whether The Letter Is Uppercase Or Lowercase.
+                    - C. If The Character Is A Numeric Digit, Prints Its Name In Text (E.G., If Input Is 9, Output Is NINE).
+               - #### [3.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/3.py)
+                    - Write A Program To Create A Pyramid Of The Character ‘*’ And A Reverse Pyramid.
+               - #### [4.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/4.py)
+                    - Consider A Tuple T1=(1, 2, 5, 7, 9, 2, 4, 6, 8, 10).Write A Program To Perform Following Operations:
+                    - A. Print Half The Values Of The Tuple In One Line And The Other Half In The Next Line.
+                    - B. Print Another Tuple Whose Values Are Even Numbers In The Given Tuple.
+                    - C. Concatenate A Tuple T2=(11,13,15) With T1.
+                    - D. Return Maximum And Minimum Value From This Tuple.
+               - #### [5.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/5.py)
+                    - Write A Program To Accept A Name From A User. Raise And Handle Appropriate Exception(S) If The Text Entered By The User Contains Digits And/Or Special Characters.
+               - #### [6.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/6.py)
+                    - Write A Function That Prints A Dictionary Where The Keys Are Numbers Between 1 And 5 And The Values Are Cubes Of The Keys.
+               - #### [7.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/7.py)
+                    - Write A Program To Create A List Of The Cubes Of Only The Even Integers Appearing In The Input List (Mayhave Elements Of Other Types Also) Using The Following:
+                    - A. 'for' Loop
+                    - B. List Comprehension
+               - #### [8.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/8.py)
+                    - Write A Program To Accept A Number ‘N’ And
+                    - A. Check If ’N’ Is Prime
+                    - B. Generate All Prime Numbers Till ‘N’
+                    - C. Generate First ‘N’ Prime Numbers.
+               - #### [9.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/9.py)
+                    - Write A Program To Swap The First N Characters Of Two Strings.
+               - #### [10.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/10.py)
+                    - Write A Program To Perform The Following Operations On A String
+                    - A. Find The Frequency Of A Character In A String.
+                    - B. Replace A Character By Another Character In A String.
+                    - C. Remove The First Occurrence Of A Character From A String.
+                    - D. Remove All Occurrences Of A Character From A String.
+               - #### [11.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/11.py)
+                    - Write A Program To Read A File And
+                    - A. Print The Total Number Of Characters, Words And Lines In The File.
+                    - B. Calculate The Frequency Of Each Character In The File. Use A Variable Of Dictionary Type To Maintain The Count.
+                    - C. Print The Words In Reverse Order.
+                    - D. Copy Even Lines Of The File To A File Named ‘File1’ And Odd Lines To Another File Named ‘File2’.
+               - #### [12.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/12.py)
+                    - Write A Function That Accepts Two Strings And Returns The Indices Of All The Occurrences Of The Second String In The First String As A List. If The Second String Is Not Present In The First String Then It Should Return -1.
+               - #### [13.py](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/13.py)
+                    - Write A Program To Define A Class Point With Coordinates X And Y As Attributes. Create Relevant Methods And Print The Objects. Also Define A Method Distance To Calculate The Distance Between Any Two Point Objects.
+               - #### [ratnesh.txt](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical/ratnesh.txt)
+                    - This text file is used in the above programs which required. 
    - ## [Ubuntu](https://github.com/16ratneshkumar/1_Year/tree/main/1_Semester/Ubuntu)
        - ### [How_To_Install_Proxy_Server(nginx).md](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Ubuntu/How_To_Install_Proxy_Server(nginx).md)
-           - HOW TO INSTALL NGINX IN YOUR SERVER (PUBLIC IP) WITH HELP OF LINUX OS(UBUNTU).
+           - How To Install And Remove Nginx In Your Server (Public Ip) With Help Of Linux Os(Ubuntu).
        - ### [How_To_Install_Server(apache).md](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Ubuntu/How_To_Install_Server(apache).md)
-           - HOW TO INSTALL APACHE2 IN YOUR SERVER (PUBLIC IP) WITH HELP OF LINUX OS(UBUNTU).
+           - How To Install And Remove Apache2 In Your Server (Public Ip) With Help Of Linux Os(Ubuntu).
        - ### [How_To_Install_Docker.md](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Ubuntu/How_To_Install_Docker.md)
-           - HOW TO INSTALL DOCKER IN YOUR SERVER (PUBLIC IP) WITH HELP OF LINUX OS(UBUNTU).
+           - How To Install Docker In Your Server (Public Ip) With Help Of Linux Os(Ubuntu).
        - ### [How_To_Install_Minikube.md](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Ubuntu/How_To_Install_Minikube.md)
-           - HOW TO INSTALL MINIKUBE IN YOUR SERVER (PUBLIC IP) WITH HELP OF LINUX OS(UBUNTU).
+           - How To Install Minikube In Your Server (Public Ip) With Help Of Linux Os(Ubuntu).
        - ### [How_To_Install_Openstack_By_devstack(deployer).md](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Ubuntu/How_To_Install_Openstack_By_devstack(deployer).md)
-           - HOW TO INSTALL OPENSTACK WITH THE HELP OF DEVSTACK DEPLOYER IN YOUR SERVER (PUBLIC IP) WITH HELP OF LINUX OS(UBUNTU).
+           - How To Install Openstack With The Help Of Devstack Deployer In Your Server (Public Ip) With Help Of Linux Os(Ubuntu).
