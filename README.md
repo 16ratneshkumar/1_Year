@@ -14,6 +14,7 @@
                     - [1.cpu]
                          - Base machine Of all practical are done below.
                     - [2.cpu]
+                         - <code>PC->AR<br/>MAIN[AR]->IR<br/>INCR PC<br/>IR[4-16]->AR<br/>DECODE IR<br/></code>
                     - [3.cpu]
                     - [3.a]
                     - [4.cpu]

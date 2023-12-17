@@ -4,7 +4,7 @@
     c. Print the words in reverse order.
     d. Copy even lines of the file to a file named ‘File1’ and odd lines to another file named ‘File2’.'''
 def main():
-    with open('ratnesh.txt','r') as file_obj:
+    with open(r'.\1_Semester\Practical\Python_Practical\ratnesh.txt','r') as file_obj:
         dict={}
         file1=''
         file2=""
@@ -17,7 +17,7 @@ def main():
               dict[i]=count
         char=sum(dict.values())
         word=len(lst)
-    with open('ratnesh.txt','r') as file_obj:
+    with open(r'.\1_Semester\Practical\Python_Practical\ratnesh.txt','r') as file_obj:
         read=file_obj.readlines()
         line=len(read)
         for i in read:
@@ -45,9 +45,9 @@ def main():
                 str1="\n"+str1
         print(str1," \n\n")
     elif choice==4:
-        with open(" File1.txt","w") as file_1:
+        with open(r".\1_Semester\Practical\Python_Practical\File1.txt","w") as file_1:
             file_1.writelines(file1)
-        with open(" File2.txt","w") as file_2:
+        with open(r".\1_Semester\Practical\Python_Practical\File2.txt","w") as file_2:
             file_2.writelines(file2)
         print("Files are separated successfully!!\nFile1 for odd lines\nFile2 for even lines")
     else:
