@@ -1,13 +1,14 @@
-# 1. Create A Class SET. Create Member Functions To Perform The Following SET Operations:
-#    1) Is Member: Check Whether An Element Belongs To The Set Or Not And Return
-#    Value As True/False.
-#    2) Powerset: List All The Elements Of The Power Set Of A Set .
-#    3) Subset: Check Whether One Set Is A Subset Of The Other Or Not.
-#    4) Union And Intersection Of Two Sets.
-#    5) Complement: Assume Universal Set As Per The Input Elements From The User.
-#    6) Set Difference And Symmetric Difference Between Two Sets.
-#    7) Cartesian Product Of Sets.
-# Write A _Menu Driven Program To Perform The Above Functions On An Instance Of The SET Class.
+"""1. Create A Class SET. Create Member Functions To Perform The Following SET Operations:
+    1) Is Member: Check Whether An Element Belongs To The Set Or Not And Return
+    Value As True/False.
+    2) Powerset: List All The Elements Of The Power Set Of A Set .
+    3) Subset: Check Whether One Set Is A Subset Of The Other Or Not.
+    4) Union And Intersection Of Two Sets.
+    5) Complement: Assume Universal Set As Per The Input Elements From The User.
+    6) Set Difference And Symmetric Difference Between Two Sets.
+    7) Cartesian Product Of Sets.
+Write A _Menu Driven Program To Perform The Above Functions On An Instance Of The SET Class."""
+
 
 class SET:
     def __init__(self, u_set):
@@ -18,8 +19,13 @@ class SET:
             return "Element Found"
         else:
             return "Element Not Found"
+
     def powerset(self):
-        pass
+        lst=[]
+        length = len(self.u_set)
+        for i in range(1 << length):
+            lst.append({self.u_set[j] for j in range(length) if (i & (1 << j))})
+        print("Your Required Powerset Are:: ", lst)
 
     def subset(self, subset_set):
         if subset_set.u_set.issubset(self.u_set):
@@ -35,19 +41,21 @@ class SET:
     def complement(self, complement_set):
         print("Your Complement Of Set Is:: \n", self.u_set-complement_set.u_set)
 
-    def difference_and_symmetric_difference(self,set2):
+    def difference_and_symmetric_difference(self, set2):
         print("Your Main Set Is:: \n", self.u_set, "\nAnother Set Is:: \n", set2.u_set)
         print("Difference Of Your Sets Are:: \n", self.u_set.difference(set2.u_set))
         print("Symmetric Difference of your sets are:: \n", self.u_set.symmetric_difference(set2.u_set))
 
-    def cartesian_product(self,set2):
-        cartesian_product={(x,y)for x in self.u_set  for y in set2.u_set}
-        print("Your Cartesian Product Are:: ",cartesian_product)
+    def cartesian_product(self, set2):
+        cartesian_product = {(x, y)for x in self.u_set for y in set2.u_set}
+        print("Your Cartesian Product Are:: ", cartesian_product)
+
 
 def set_create(uni="set"):
-    u_set = set(map(int,input(f"Enter Your Element Of {uni} With A Space:: ").split()))
+    u_set = set(map(int, input(f"Enter Your Element Of {uni} With A Space:: ").split()))
     print(f"Your Required {uni} Are:: ", u_set)
     return u_set
+
 
 def main():
     choice = str(input("""Main Menu!!
@@ -64,8 +72,7 @@ def main():
         element = int(input("Enter Your Element:"))
         print(set1.is_member(element))
     elif choice == '2':
-        pass
-        set1 = SET(set_create())
+        set1 = SET(list(set_create()))
         set1.powerset()
     elif choice == '3':
         universal_set = SET(set_create(uni="Universal Set"))
@@ -90,6 +97,7 @@ def main():
     else:
         print("Invalid Input!!\nPlease Try Again")
         main()
+
 
 if __name__ == "__main__":
     main()
