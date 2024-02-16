@@ -1,12 +1,14 @@
-'''2. Create a class RELATION, use Matrix notation to represent a relation. Include 
+"""2. Create a class RELATION, use Matrix notation to represent a relation. Include
 member functions to check if the relation is Reflexive, Symmetric, Anti-symmetric, 
-Transitive. Using these functions check whether the given relation is: Equivalence or Partial Order relation or None'''
+Transitive. Using these functions check whether the given relation is: Equivalence or Partial Order relation or None"""
 
-from numpy import array,shape
+from numpy import array
+
+
 class RELATION:
-    def __init__(self,matrix):
-        self.matrix=matrix
-        self.length=len(matrix)
+    def __init__(self, matrix):
+        self.matrix = matrix
+        self.length = len(matrix)
     
     def reflexive(self):
         for i in range(self.length):
@@ -14,44 +16,46 @@ class RELATION:
                 return False
         return True
 
-    def Symmetric(self):
+    def symmetric(self):
         for i in range(self.length):
             for j in range(self.length):
-                if  self.matrix[i][j] != self.matrix[j][i]:
+                if self.matrix[i][j] != self.matrix[j][i]:
                     return False
         return True
 
-
-    def Transitive(self):
-        for i in range (self.length):
+    def transitive(self):
+        for i in range(self.length):
             for j in range(self.length):
                 for k in range(self.length):
                     if self.matrix[i][j] and self.matrix[j][k] and not self.matrix[i][k]:
-                            return False
+                        return False
         return True
-        
 
-    def Anti_symmetric(self):
+    def anti_symmetric(self):
         for i in range(self.length):
             for j in range(self.length):
-                if  i != j and self.matrix[i][j] and self.matrix[j][i]:
+                if i != j and self.matrix[i][j] and self.matrix[j][i]:
                     return False
     
+
 def enter_matrix():
-    lst=list(map(int,input("Enter You Relation In Form Of Matrix Value With A Space:: ").split()))
-    row=int(input("Enter How Many Row or Columns In Your Square Matrix:: "))
-    matrix=array(lst).reshape(row,row)
-    print("Your Requried Matrix Are:: ",matrix)
+    lst = list(map(int, input("Check Whether The Given Relation Is:\n Equivalence or Partial Order relation or None\nEnter You Relation In Form Of Matrix Value With A Space:: ").split()))
+    row = int(input("Enter How Many Row or Columns In Your Square Matrix:: "))
+    matrix = array(lst).reshape(row, row)
+    print("Your Required Matrix Are:: ", matrix)
     return matrix
 
+
 def main():
-    rel=RELATION(enter_matrix())
-    if rel.reflexive() and rel.Symmetric() and rel.Transitive():
+    rel = RELATION(enter_matrix())
+    if rel.reflexive() and rel.symmetric() and rel.transitive():
         return "Your Relation is Equivalence Relation."
-    elif rel.reflexive() and rel.Anti_symmetric() and rel.Transitive():
+    elif rel.reflexive() and rel.anti_symmetric() and rel.transitive():
         return "Your Relation is Partial Order Relation."
     else:
         return "None"
 
+
 if __name__ == "__main__":
     print(main())
+
