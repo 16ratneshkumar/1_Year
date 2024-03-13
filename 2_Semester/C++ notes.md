@@ -8,7 +8,7 @@ C++ is a general-purpose programming language that was developed as an enhanceme
 - C++ is easy to learn so that you can choose it as your first programming language.
 - It makes programming easy for programmers to switch to C++ because its syntax is similar to C, Java, and C#.
 
-## Features
+## Features of cpp
 - C++ is a high-level, general-purpose programming language designed for system and application programming. It was developed by Bjarne Stroustrup at Bell Labs in 1983 as an extension of the C programming language.
 - One of the key features of C++ is its ability to support low-level, system-level programming, making it suitable for developing operating systems, device drivers, and other system software.
 - C++ has a large, active community of developers and users, and a wealth of resources and tools available for learning and using the language. Some of the key features of C++ include:
@@ -40,9 +40,6 @@ C++ is a general-purpose programming language that was developed as an enhanceme
 
 ![image](https://github.com/Shantanu2911/Notes/assets/143939657/65c3f32f-cedb-446e-8e48-afb79d38bf7c)
 
-## INSTALLATION
-![image](https://github.com/Shantanu2911/Notes/assets/143939657/6f4b7cbb-dbbd-4a1a-92ea-4371567cc15a)
-
 ## First-Code in C++
 
 ```C++
@@ -58,9 +55,6 @@ int main()
 }
 
 ```
-### **Output**
-
-![image](https://github.com/Shantanu2911/Notes/assets/143939657/e399a4c4-f3f2-4609-a937-72a05ef4294d)
 
 - **// C++ program to display “Hello World”** : This line is a comment line.
 - **#include** : This is a preprocessor directive. #include<iostream> tells the compiler to include the standard iostream file which contains declarations of all the standard input/output library functions
