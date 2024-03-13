@@ -1,4 +1,4 @@
-# **C ++**
+# what is **C ++**
 C++ is a general-purpose programming language that was developed as an enhancement of the C language to include object-oriented paradigm. It is an imperative and a compiled language. 
 ## Why Learn C++?
 - C++ is one of the most used and popular programming languages.
