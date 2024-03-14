@@ -711,3 +711,233 @@ This table represents a 2D array `arr` with 3 rows and 4 columns. The first row 
             return 0;  
         }  
         ```
+
+
+
+
+
+
+
+
+
+# Object-Oriented Programming (OOP) Explained with C++
+   - Object-Oriented Programming (OOP) is a programming paradigm centered around the concept of "objects" which can contain data, in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods). In C++, OOP is implemented using classes and objects, with support for various features like overriding, overloading, runtime polymorphism, and compile-time polymorphism. Let's explore these concepts in detail:
+
+## Classes and Objects
+   - A class is a blueprint for creating objects. It defines the properties and behaviors that objects of that class will have. For example:
+   ```cpp
+    class Car {
+        string brand;
+        int year;
+
+    public:
+        void setBrand(string b) {
+            brand = b;
+        }
+
+        void setYear(int y) {
+            year = y;
+        }
+    };
+   ```
+   - An object is an instance of a class. It represents a specific instance of the class and can store data and perform operations defined by the class.
+
+   ```cpp
+    Car myCar; // Creating an object of type Car
+    myCar.setBrand("Toyota");
+    myCar.setYear(2022);
+   ```
+
+## Encapsulation
+   - Encapsulation is the bundling of data and methods that operate on the data into a single unit, called a class. It hides the internal state of an object from the outside world and only exposes a public interface to interact with the object.
+
+   ```cpp
+    class Example {
+    private:
+        int x;
+
+    public:
+        void setX(int value) {
+            x = value;
+        }
+
+        int getX() {
+            return x;
+        }
+    };
+   ```
+## Inheritance
+   - Inheritance is a mechanism in which a new class (derived class) is created from an existing class (base class). The derived class inherits properties and behaviors from the base class.
+
+   ```cpp
+    class Animal {
+    public:
+        void eat() {
+            cout << "Eating...\n";
+        }
+    };
+
+    class Dog : public Animal {
+    public:
+        void bark() {
+            cout << "Barking...\n";
+        }
+    };
+   ```
+## Polymorphism
+### Compile-Time Polymorphism (Function Overloading)
+   - Compile-time polymorphism allows different functions to be called based on the number or types of arguments. This is achieved through function overloading.
+
+   ```cpp
+    class Math {
+    public:
+        int add(int a, int b) {
+            return a + b;
+        }
+
+        float add(float a, float b) {
+            return a + b;
+        }
+    };
+   ```
+### Runtime Polymorphism (Function Overriding)
+   - Runtime polymorphism allows a function to behave differently based on the object that invokes it. This is achieved through virtual functions and function overriding.
+   ```cpp
+    class Shape {
+    public:
+        virtual void draw() {
+            cout << "Drawing a shape\n";
+        }
+    };
+
+    class Circle : public Shape {
+    public:
+        void draw() override {
+            cout << "Drawing a circle\n";
+        }
+    };
+
+    class Square : public Shape {
+    public:
+        void draw() override {
+            cout << "Drawing a square\n";
+        }
+    };
+   ```
+## Operator Overloading
+   - Operator overloading allows operators to be redefined for custom classes. This enables intuitive usage of operators with user-defined types.
+
+   ```cpp
+    class Complex {
+        float real;
+        float imag;
+
+    public:
+        Complex(float r, float i) : real(r), imag(i) {}
+
+        Complex operator+(const Complex &other) {
+            return Complex(real + other.real, imag + other.imag);
+        }
+
+        void display() {
+            cout << real << " + " << imag << "i" << endl;
+        }
+    };
+   ```
+
+# File Handling in C++
+   - File handling in C++ allows you to work with files on the system. It enables reading data from files, writing data to files, and performing various operations like opening, closing, deleting, and modifying files. Here's a detailed explanation of file handling in C++:
+
+## File Streams
+C++ provides three types of file streams:
+- **ifstream**: Used for reading input from files.
+- **ofstream**: Used for writing output to files.
+- **fstream**: Can be used for both reading and writing.
+
+- To use file streams, you need to include the `<fstream>` header file.
+
+```cpp
+#include <fstream>
+```
+## Opening and Closing Files
+   - You can open files using the open() method of file streams. The open() method takes the file name and the mode in which you want to open the file (e.g., ios::in for input, ios::out for output, ios::app for appending, etc.).
+
+   ```cpp
+    ofstream outFile;
+    outFile.open("example.txt", ios::out);
+
+    if (!outFile.is_open()) {
+        cout << "Error opening file!";
+        return 1;
+    }
+
+    // Perform operations on the file
+
+    outFile.close();
+   ```
+## Reading from Files
+   - To read data from files, you can use the >> or getline() functions for formatted or line-based input, respectively.
+
+   ```cpp
+    ifstream inFile;
+    inFile.open("input.txt", ios::in);
+
+    if (!inFile.is_open()) {
+        cout << "Error opening file!";
+        return 1;
+    }
+
+    int num;
+    inFile >> num; // Read an integer from the file
+
+    string line;
+    getline(inFile, line); // Read a line from the file
+
+    // Perform operations with the read data
+
+    inFile.close();
+   ```
+## Writing to Files
+   - To write data to files, you can use the << operator for formatted output.
+
+   ```cpp
+    ofstream outFile;
+    outFile.open("output.txt", ios::out);
+
+    if (!outFile.is_open()) {
+        cout << "Error opening file!";
+        return 1;
+    }
+
+    int num = 10;
+    outFile << num; // Write an integer to the file
+
+    string text = "Hello, world!";
+    outFile << text; // Write a string to the file
+
+    // Perform other write operations
+
+    outFile.close();
+   ```
+## Checking End-of-File (EOF)
+   - You can use the eof() function to check whether you've reached the end of the file while reading.
+
+   ```cpp
+    ifstream inFile;
+    inFile.open("data.txt", ios::in);
+
+    if (!inFile.is_open()) {
+        cout << "Error opening file!";
+        return 1;
+    }
+
+    int num;
+    while (!inFile.eof()) {
+        inFile >> num;
+        cout << num << " ";
+    }
+
+    inFile.close();
+   ```
+## Error Handling
+   - Always check if the file operations (like opening or closing) were successful to avoid runtime errors.
