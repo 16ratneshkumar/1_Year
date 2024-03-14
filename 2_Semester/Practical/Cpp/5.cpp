@@ -1,63 +1,54 @@
 /*5.Write a program to merge two ordered arrays to get a single ordered array. */
-#include<bits/stdc++.h>
-
+#include <iostream>
 using namespace std;
- 
 
-void mergeArrays(int arr1[], int arr2[], int n1,
-
-                            int n2, int arr3[])
-{
-
+void mergeArrays(int arr1[], int size1, int arr2[], int size2, int result[]) {
     int i = 0, j = 0, k = 0;
 
-    
-
-      while(i < n1){
-
-      arr3[k++] = arr1[i++];
-
+    while (i < size1 && j < size2) {
+        if (arr1[i] <= arr2[j]) {
+            result[k++] = arr1[i++];
+        } else {
+            result[k++] = arr2[j++];
+        }
     }
 
-       
-
-    
-
-      while(j < n2){
-
-      arr3[k++] = arr2[j++];
-
+    while (i < size1) {
+        result[k++] = arr1[i++];
     }
 
-       
-
-      sort(arr3, arr3+n1+n2);
+    while (j < size2) {
+        result[k++] = arr2[j++];
+    }
 }
 
-int main()
-{
+int main() {
+    int size1, size2;
 
-    int arr1[] = {1, 3, 5, 7};
+    cout << "Enter size of first array: ";
+    cin >> size1;
+    int arr1[size1];
+    cout << "Enter elements of first array (in ascending order): ";
+    for (int i = 0; i < size1; ++i) {
+        cin >> arr1[i];
+    }
 
-    int n1 = sizeof(arr1) / sizeof(arr1[0]);
- 
+    cout << "Enter size of second array: ";
+    cin >> size2;
+    int arr2[size2];
+    cout << "Enter elements of second array (in ascending order): ";
+    for (int i = 0; i < size2; ++i) {
+        cin >> arr2[i];
+    }
 
-    int arr2[] = {2, 4, 6, 8};
+    int result[size1 + size2];
+    mergeArrays(arr1, size1, arr2, size2, result);
 
-    int n2 = sizeof(arr2) / sizeof(arr2[0]);
- 
-
-    int arr3[n1+n2];
-
-    mergeArrays(arr1, arr2, n1, n2, arr3);
- 
-
-    cout << "Array after merging" <<endl;
-
-    for (int i=0; i < n1+n2; i++)
-
-        cout << arr3[i] << " ";
- 
+    cout << "Merged array (in ascending order): ";
+    for (int i = 0; i < size1 + size2; ++i) {
+        cout << result[i] << " ";
+    }
+    cout << endl;
 
     return 0;
 }
