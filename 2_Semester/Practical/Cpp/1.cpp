@@ -2,6 +2,7 @@
 Sum=1-1/2²+1/3³-
 The number of terms n is to be taken from the user through the command line. If the command line argument is not found then prompt the user to enter the value of n.*/
 #include <iostream>
+#include <cmath>
 using namespace std;
 int Sum(int n)
 {
