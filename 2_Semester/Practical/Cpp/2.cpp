@@ -1,11 +1,38 @@
 /*2.Write a program to remove the duplicates from an array.*/
+#include <iostream>
+#include <unordered_set>
 using namespace std;
-int main(){
-set<int>s;
-int arr[] = {10, 10, 20, 30, 30, 30, 40};
-int n = sizeof(arr)/sizeof(arr[0]);
-for(int i=0; i<n; i++)
-s.insert(arr[i]);
-for(auto it = s.begin(); it != s.end(); it++)
-cout<<*it<<" ";
+
+void removeDuplicates(int arr[], int& size) {
+    unordered_set<int> uniqueElements;
+    int index = 0;
+
+    for (int i = 0; i < size; ++i) {
+        if (uniqueElements.insert(arr[i]).second) {
+            arr[index++] = arr[i];
+        }
+    }
+
+    size = index;
+}
+
+int main() {
+    int arr[] = {1, 2, 3, 4, 3, 2, 1, 5};
+    int size = sizeof(arr) / sizeof(arr[0]);
+
+    cout << "Original array: ";
+    for (int i = 0; i < size; ++i) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+
+    removeDuplicates(arr, size);
+
+    cout << "Array after removing duplicates: ";
+    for (int i = 0; i < size; ++i) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+
+    return 0;
 }
