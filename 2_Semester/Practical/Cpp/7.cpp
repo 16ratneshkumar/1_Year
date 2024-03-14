@@ -3,25 +3,37 @@ recursion.*/
 #include <iostream>
 using namespace std;
 
-int main() {
-  int n1, n2, hcf;
-  cout << "Enter two numbers: ";
-  cin >> n1 >> n2;
-
-  
-  if ( n2 > n1) {   
-    int temp = n2;
-    n2 = n1;
-    n1 = temp;
-  }
-    
-  for (int i = 1; i <=  n2; ++i) {
-    if (n1 % i == 0 && n2 % i ==0) {
-      hcf = i;
+int gcdRecursive(int a, int b) {
+    if (b == 0) {
+        return a;
+    } else {
+        return gcdRecursive(b, a % b);
     }
-  }
+}
 
-  cout << "HCF = " << hcf;
+int gcdIterative(int a, int b) {
+    while (b != 0) {
+        int temp = b;
+        b = a % b;
+        a = temp;
+    }
+    return a;
+}
+
+int main() {
+    int num1, num2;
+
+    cout << "Enter two numbers: ";
+    cin >> num1 >> num2;
+
+    int gcdRec = gcdRecursive(num1, num2);
+    cout << "GCD of " << num1 << " and " << num2 << " (with recursion): " << gcdRec << endl;
+
+    int gcdIter = gcdIterative(num1, num2);
+    cout << "GCD of " << num1 << " and " << num2 << " (without recursion): " << gcdIter << endl;
+
+    return 0;
+}
 
   return 0;
 }
