@@ -1,4 +1,5 @@
 # How To Use Slither For Auditing Smart Contracts
+![audit](https://github.com/16ratneshkumar/1_Year/assets/142919875/33703d7f-0772-4190-8851-723bae699117)
 
 ## What is Slither ?
 - Slither is a Solidity static analysis framework based on Python 3. It is one of the most popular tools for smart contracts auditing. Slither has a wide range of vulnerability detectors, printers for visualization of the contract details, and API for custom analyses. It supports Solidity 0.4+ contracts and the audit time is fewer than 1 second per contract.
