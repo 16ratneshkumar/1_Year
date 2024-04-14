@@ -12,7 +12,7 @@
 ```
 sudo apt install software-properties-common
 ```
-![Image](https://github.com/16ratneshkumar/1_Year/blob/main/2_Semester/Computer%20Science/Blockchain/Auditing%20Smart%20Contracts/src/Screenshot%20from%202024-04-12%2021-33-18.png)
+![Image](<src/Screenshot from 2024-04-12 21-33-18.png>)
 ```
 sudo add-apt-repository ppa:ethereum/ethereum
 ```
@@ -20,13 +20,13 @@ sudo add-apt-repository ppa:ethereum/ethereum
 ```
 sudo apt install solc
 ```
-![Image](https://github.com/16ratneshkumar/1_Year/blob/main/2_Semester/Computer%20Science/Blockchain/Auditing%20Smart%20Contracts/src/Screenshot%20from%202024-04-12%2021-33-37.png)
-- You should also install the solc-select. It is used for quick installation and switching between Solidity compiler versions.
+![Image](<src/Screenshot from 2024-04-12 21-33-37.png>)
 
+- You should also install the solc-select. It is used for quick installation and switching between Solidity compiler versions.
 ```
 sudo apt install python3-pip
 ```
-![Image](https://github.com/16ratneshkumar/1_Year/blob/main/2_Semester/Computer%20Science/Blockchain/Auditing%20Smart%20Contracts/src/Screenshot%20from%202024-04-12%2021-35-41.png)
+![Image](<src/Screenshot from 2024-04-12 21-35-41.png>)
 ```
 pip3 install solc-select
 ```
@@ -34,7 +34,7 @@ pip3 install solc-select
 ```
 solc-select use [VERSION] --always-install
 ```
-![Image](https://github.com/16ratneshkumar/1_Year/blob/main/2_Semester/Computer%20Science/Blockchain/Auditing%20Smart%20Contracts/src/Screenshot%20from%202024-04-12%2021-41-01.png)
+![Image](<src/Screenshot from 2024-04-12 21-41-01.png>)
 - After the solc and solc-select are installed with no errors, we can proceed to the Slither installation. It can be done in three ways:
 
 - ### Using Pip ( Recommended ):
@@ -42,7 +42,7 @@ solc-select use [VERSION] --always-install
 ```
 pip3 install slither-analyzer
 ```
-![Image](https://github.com/16ratneshkumar/1_Year/blob/main/2_Semester/Computer%20Science/Blockchain/Auditing%20Smart%20Contracts/src/Screenshot%20from%202024-04-12%2021-41-32.png)
+![Image](<src/Screenshot from 2024-04-12 21-41-32.png>)
 - ### Using GitHub:
 
 ```
@@ -67,7 +67,7 @@ touch [YOUR FILENAME]
 nano [YOUR FILENAME]
 slither [YOUR FILENAME]
 ```
-![Image](https://github.com/16ratneshkumar/1_Year/blob/main/2_Semester/Computer%20Science/Blockchain/Auditing%20Smart%20Contracts/src/Screenshot%20from%202024-04-12%2021-44-12.png)
+![Image](<src/Screenshot from 2024-04-12 21-44-12.png>)
 
     * Project directory. 
     Example: slither /path/to/the/project/SecureProject
