@@ -23,6 +23,7 @@ mkdir solgraph
 cd solgraph
 ```
 ***Mandatory Step***
+
 ![Image](<src/Screenshot from 2024-04-14 11-11-25.png>)
 ```
 touch MyContract.sol
