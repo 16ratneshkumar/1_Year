@@ -1,4 +1,4 @@
-# How To Use Slither For Auditing Smart Contracts
+# How To Use Slither For Auditing Smart Contracts.....
 ![audit](https://github.com/16ratneshkumar/1_Year/assets/142919875/33703d7f-0772-4190-8851-723bae699117)
 
 ## What is Slither ?
@@ -7,7 +7,7 @@
 ## Why Are Smart Contract Audits Important ?
 - While blockchain technology is secure, blockchain applications have security vulnerabilities. One of the most famous security incidents involving smart contracts was the theft of $50 million in 2016. Hackers took advantage of vulnerable code in The DAO, a blockchain investment fund controlled through smart contracts. A smart contract security audit team can help mitigate such risks.
 
-## How To Install Slither
+## How To Install Slither....
 
 ```
 sudo apt install software-properties-common
@@ -57,7 +57,7 @@ docker pull trailofbits/eth-security-toolbox
 
 ***We can check the installation by running slither --version***
 
-## How to check a smart contract using Slither
+## How to check a smart contract using Slither....
 - After you defined a contract that you want to check, the easiest way is just to run slither [target]. The target can be specified in several ways:
 
     * Local copy of a contract file. 
