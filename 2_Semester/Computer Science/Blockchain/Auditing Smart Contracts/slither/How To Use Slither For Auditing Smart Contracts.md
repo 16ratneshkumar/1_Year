@@ -78,14 +78,14 @@ slither [YOUR FILENAME]
 
 
 ## How to filter Slither output results
-    - The output results can be filtered. Here are some examples how to filter the results:
+   - The output results can be filtered. Here are some examples how to filter the results:
 
-    + dependencies: –exclude-dependencies
+   + dependencies: –exclude-dependencies
 
-    + optimization: –exclude-optimization
+   + optimization: –exclude-optimization
 
-    + informational: –exclude-informational
+   + informational: –exclude-informational
 
-    + low findings: –exclude-low
+   + low findings: –exclude-low
 
 [For More Information Go Through..](https://hackenproof.com/blog/for-hackers/how-to-use-slither-for-auditing-smart-contracts)
