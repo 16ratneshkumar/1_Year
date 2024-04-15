@@ -78,7 +78,7 @@ slither [YOUR FILENAME]
 
 
 ## How to filter Slither output results
-   - The output results can be filtered. Here are some examples how to filter the results:
+- The output results can be filtered. Here are some examples how to filter the results:
 
    + dependencies: –exclude-dependencies
 
