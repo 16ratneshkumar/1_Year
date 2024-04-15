@@ -74,3 +74,18 @@ slither [YOUR FILENAME]
 
     * Mainnet contract address.
     Example: slither 0xf34960d9d60be18cC1D5Afc1A6F012A723a28811
+
+
+
+## How to filter Slither output results
+- The output results can be filtered. Here are some examples how to filter the results:
+
+   + dependencies: –exclude-dependencies
+
+   + optimization: –exclude-optimization
+
+   + informational: –exclude-informational
+
+   + low findings: –exclude-low
+
+[For More Information Go Through..](https://hackenproof.com/blog/for-hackers/how-to-use-slither-for-auditing-smart-contracts)
