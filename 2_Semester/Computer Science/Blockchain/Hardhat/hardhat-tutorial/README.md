@@ -66,11 +66,20 @@
    - Select Create an empty hardhat.config.js with your keyboard and hit enter.
 
    ***When Hardhat is run, it searches for the closest hardhat.config.js file starting from the current working directory. This file normally lives in the root of your project and an empty hardhat.config.js is enough for Hardhat to work. The entirety of your setup is contained in this file.***
+   ### Plugins
+   - Hardhat is unopinionated in terms of what tools you end up using, but it does come with some built-in defaults. All of which can be overridden. Most of the time the way to use a given tool is by consuming a plugin that integrates it into Hardhat.
+   ```
+   npm install --save-dev @nomicfoundation/hardhat-toolbox
+   ```
+   - Add this line to your hardhat.config.js so that it looks like this:
+   ```
+    require("@nomicfoundation/hardhat-toolbox");
 
-      ### Plugins
-
-
-
+    /** @type import('hardhat/config').HardhatUserConfig */
+    module.exports = {
+    solidity: "0.8.24",
+    };
+   ```
 
 ## 3. Writing and compiling smart contracts
 - We're going to create a simple smart contract that implements a token that can be transferred. Token contracts are most frequently used to exchange or store value. 
@@ -395,7 +404,7 @@
 ## 5. Debugging with Hardhat Network
    ### Solidity console.log
    - When running your contracts and tests on Hardhat Network you can print logging messages and contract variables calling console.log() from your Solidity code. To use it you have to import hardhat/console.sol in your contract code.
-    ```
+   ```
     pragma solidity ^0.8.0;
 
     import "hardhat/console.sol";
@@ -403,13 +412,9 @@
     contract Token {
     //...
     }
-    ```
-
-
-
-
-
-    ```
+   ```
+   - Then you can just add some console.log calls to the transfer() function as if you were using it in JavaScript:
+   ```
     function transfer(address to, uint256 amount) external {
         require(balances[msg.sender] >= amount, "Not enough tokens");
 
@@ -425,9 +430,100 @@
 
         emit Transfer(msg.sender, to, amount);
     }
-    ```
-    - After pasteing this line to run following command:
-    ```
+   ```
+   - After pasteing this line to run following command:
+   ```
     npx hardhat test
-    ```
+   ```
 ## 6. Deploying to a live network
+- Once you're ready to share your dApp with other people, you may want to deploy it to a live network. This way others can access an instance that's not running locally on your system.
+- The "mainnet" Ethereum network deals with real money, but there are separate "testnet" networks that do not. These testnets provide shared staging environments that do a good job of mimicking the real world scenario without putting real money at stake, and Ethereum has several, like Sepolia and Goerli. We recommend you deploy your contracts to the Sepolia testnet.
+- At the software level, deploying to a testnet is the same as deploying to mainnet. The only difference is which network you connect to. Let's look into what the code to deploy your contracts using Hardhat Ignition would look like.
+- In Hardhat Ignition, deployments are defined through Ignition Modules. These modules are abstractions to describe a deployment; that is, JavaScript functions that specify what you want to deploy.
+- Ignition modules are expected to be within the ./ignition/modules directory.So now create this.
+- ***Paste the following into a Token.js file in that directory:***
+    ```
+    const { buildModule } = require("@nomicfoundation/hardhat-ignition/modules");
+
+    const TokenModule = buildModule("TokenModule", (m) => {
+    const token = m.contract("Token");
+
+    return { token };
+    });
+
+    module.exports = TokenModule;
+    ```
+- To tell Hardhat to connect to a specific Ethereum network, you can use the --network parameter when running any task, like this:
+    ```
+    npx hardhat ignition deploy ./ignition/modules/Token.js --network <network-name>
+    ```
+- With our current configuration, running it without the --network parameter would cause the code to run against an embedded instance of Hardhat Network. In this scenario, the deployment actually gets lost when Hardhat finishes running, but it's still useful to test that our deployment code works:
+   ### Deploying to remote networks
+   - To deploy to a remote network such as mainnet or any testnet, you need to add a network entry to your hardhat.config.js file. We’ll use Sepolia for this example, but you can add any network. For key storage, utilize the configuration variables.
+   - ***If you use infura API key***
+    ```
+    require("@nomicfoundation/hardhat-toolbox");
+
+    // Ensure your configuration variables are set before executing the script
+    const { vars } = require("hardhat/config");
+
+    // Go to https://infura.io, sign up, create a new API key
+    // in its dashboard, and add it to the configuration variables
+    const INFURA_API_KEY = vars.get("INFURA_API_KEY");
+
+    // Add your Sepolia account private key to the configuration variables
+    // To export your private key from Coinbase Wallet, go to
+    // Settings > Developer Settings > Show private key
+    // To export your private key from Metamask, open Metamask and
+    // go to Account Details > Export Private Key
+    // Beware: NEVER put real Ether into testing accounts
+    const SEPOLIA_PRIVATE_KEY = vars.get("SEPOLIA_PRIVATE_KEY");
+
+    module.exports = {
+    solidity: "0.8.24",
+    networks: {
+        sepolia: {
+        url: `https://sepolia.infura.io/v3/${INFURA_API_KEY}`,
+        accounts: [SEPOLIA_PRIVATE_KEY],
+        },
+    },
+    };
+    ```
+    - ***If you use alchemy API key***
+    ```
+    require("@nomicfoundation/hardhat-toolbox");
+
+    // Ensure your configuration variables are set before executing the script
+    const { vars } = require("hardhat/config");
+
+    // Go to https://alchemy.com, sign up, create a new App in
+    // its dashboard, and add its key to the configuration variables
+    const ALCHEMY_API_KEY = vars.get("ALCHEMY_API_KEY");
+
+    // Add your Sepolia account private key to the configuration variables
+    // To export your private key from Coinbase Wallet, go to
+    // Settings > Developer Settings > Show private key
+    // To export your private key from Metamask, open Metamask and
+    // go to Account Details > Export Private Key
+    // Beware: NEVER put real Ether into testing accounts
+    const SEPOLIA_PRIVATE_KEY = vars.get("SEPOLIA_PRIVATE_KEY");
+
+    module.exports = {
+    solidity: "0.8.24",
+    networks: {
+        sepolia: {
+        url: `https://eth-sepolia.g.alchemy.com/v2/${ALCHEMY_API_KEY}`,
+        accounts: [SEPOLIA_PRIVATE_KEY]
+        }
+    }
+    };
+    ```
+    - Finally, run:
+    ```
+    npx hardhat ignition deploy ./ignition/modules/Token.js --network sepolia
+    ```
+***If everything went well, you should see the deployed contract address.***
+
+Thank you!!
+
+[For More Information Go Through..](https://hardhat.org/tutorial)
