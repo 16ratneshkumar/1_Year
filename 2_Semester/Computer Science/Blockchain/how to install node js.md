@@ -89,9 +89,17 @@
     source ~/.bashrc
     ```
     ![Image](<src/Screenshot from 2024-04-17 16-45-36.png>)
+- Now, you can ask NVM which versions of Node are available:
+    ```
+    nvm list-remote
+    ```
 - Install the latest Long Term Support version of Node by using the command below:
     ```
     nvm install --lts
+    ```
+    or
+    ```
+    nvm install v[version]
     ```
     ![Image](<src/Screenshot from 2024-04-17 16-42-22.png>)
 - Make the default LTS version as NVM
