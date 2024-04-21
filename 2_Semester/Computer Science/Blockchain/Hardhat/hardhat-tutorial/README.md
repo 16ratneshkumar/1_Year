@@ -546,28 +546,47 @@ mkdir modules && cd modules
     ```
     ![Image](<../src tutorial/Screenshot from 2024-04-17 18-38-32.png>)
 
-
+## **Image for creating Alchemy API**
+![Image](<../src tutorial/Screenshot from 2024-04-17 19-16-01.png>)
 ![Image](<../src tutorial/Screenshot from 2024-04-17 19-16-06.png>)
 ![Image](<../src tutorial/Screenshot from 2024-04-17 19-16-54.png>)
-![Image](<../src tutorial/Screenshot from 2024-04-17 19-12-40.png>)
-![Image](<../src tutorial/Screenshot from 2024-04-17 19-13-11.png>)
-![Image](<../src tutorial/Screenshot from 2024-04-17 19-16-01.png>)
 
 
-![Image](<../src tutorial/Screenshot from 2024-04-17 18-55-16.png>)
-![Image](<../src tutorial/Screenshot from 2024-04-17 19-34-35.png>)
-![Image](<../src tutorial/Screenshot from 2024-04-17 18-54-46.png>)
+   - Before final depolyment
+   - You have to set ALCHEMY API and SEPOLIA PRIVATE KEY.
+   - To check you have already set or not alchemy api key and sepolia private key. 
+   ```sh
+   npx hardhat vars setup
+   ```
+   
+   ![Image](<../src tutorial/Screenshot from 2024-04-17 18-55-16.png>)
+   - To set alchemy api key cmd as follow.
+   ```sh
+   npx hardhat vars set ALCHEMY_API_KEY
+   ```
+   ![Image](<../src tutorial/Screenshot from 2024-04-17 19-34-35.png>)
+   - To set sepolia private key cmd as follow.
+   ```sh
+   npx hardhat vars set SEPOLIA_PRIVATE_KEY
+   ```
+   ![Image](<../src tutorial/Screenshot from 2024-04-17 18-54-46.png>)
 
 
 
-    - Finally, run:
-    ```sh
-    npx hardhat ignition deploy ./ignition/modules/Token.js --network sepolia
-    ```
+   - Finally, run to depoly:
+   ```bash
+   npx hardhat ignition deploy ./ignition/modules/Token.js --network sepolia
+   ```
     
 ![Image](<../src tutorial/Screenshot from 2024-04-17 19-02-14.png>)
 ![Image](<../src tutorial/Screenshot from 2024-04-17 19-03-36.png>)
+
 ***If everything went well, you should see the deployed contract address.***
+
+## **API request on alchemy**
+![Image](<../src tutorial/Screenshot from 2024-04-17 19-12-40.png>)
+![Image](<../src tutorial/Screenshot from 2024-04-17 19-13-11.png>)
+
 
 **Thank you!!**
 
