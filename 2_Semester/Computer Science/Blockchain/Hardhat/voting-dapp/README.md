@@ -12,7 +12,7 @@ The Blockchain-Based Voting System is a secure and transparent approach to condu
 
 ## Prerequisites
 - Ubuntu install in your machine.
-- Node.js (version 18 and above) installed on your machine
+- [Node.js](<../../how to install node js.md>) (version 18 and above) installed on your machine
 - Hardhat for Ethereum smart contract development
 - Account on Alchemy  or Infura for API 
 - Metamask account and their browser extension installed on your browser
