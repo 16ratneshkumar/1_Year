@@ -851,7 +851,7 @@ npm serve build
 
 - Now start your server and see your output in your local host(10.0.2.15:3000)
 ```sh
-server -s build
+npm install -g server && server -s build
 ```
 ![Image](<../voting src/Screenshot from 2024-04-20 14-04-32.png>) 
 
@@ -879,7 +879,7 @@ server -s build
 ![Image](<../voting src/WhatsApp Image 2024-04-21 at 11.51.54_533e58a7.jpg>)
 ![Image](<../voting src/WhatsApp Image 2024-04-21 at 11.51.54_bb403983.jpg>) 
 
-### **Image of Alchemy**
+### **Image of Alchemy(Api request)**
 ![Image](<../voting src/Screenshot 2024-04-20 143345.jpg>)
 ![Image](<../voting src/Screenshot 2024-04-20 143431.jpg>) 
 ![Image](<../voting src/Screenshot 2024-04-20 143511.jpg>) 

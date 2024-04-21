@@ -113,3 +113,7 @@
     node -v npm -v
     ```
     ![Image](<src/Screenshot from 2024-04-17 16-42-41.png>)
+
+## For install or update npm use
+```sh
+npm install -g npm@[version]
