@@ -873,19 +873,23 @@ npm install -g server && server -s build
 ![Image](<../voting src/Screenshot from 2024-04-20 14-11-32.png>) 
 
 ### **Image of Metamask during voting**
-![Image](<../voting src/Screenshot from 2024-04-20 14-12-49.png>) 
-![Image](<../voting src/Screenshot from 2024-04-20 14-12-57.png>) 
-![Image](<../voting src/Screenshot from 2024-04-20 14-13-19.png>)
-![Image](<../voting src/WhatsApp Image 2024-04-21 at 11.51.54_533e58a7.jpg>)
-![Image](<../voting src/WhatsApp Image 2024-04-21 at 11.51.54_bb403983.jpg>) 
+<div>
+  <img src="../voting src/Screenshot from 2024-04-20 14-12-49.png" alt="Image" /> 
+  <img src="../voting src/Screenshot from 2024-04-20 14-12-57.png" alt="Image" /> 
+  <img src="../voting src/Screenshot from 2024-04-20 14-13-19.png" alt="Image" />
+  <img src="../voting src/WhatsApp Image 2024-04-21 at 11.51.54_533e58a7.jpg" alt="Image" />
+  <img src="../voting src/WhatsApp Image 2024-04-21 at 11.51.54_bb403983.jpg" alt="Image" />
+</div> 
 
 ### **Image of Alchemy(Api request)**
-![Image](<../voting src/Screenshot 2024-04-20 143345.jpg>)
-![Image](<../voting src/Screenshot 2024-04-20 143431.jpg>) 
-![Image](<../voting src/Screenshot 2024-04-20 143511.jpg>) 
-![Image](<../voting src/Screenshot 2024-04-20 143533.jpg>) 
-![Image](<../voting src/Screenshot 2024-04-20 143620.jpg>) 
-![Image](<../voting src/Screenshot 2024-04-20 143726.jpg>) 
+<div>
+<img src="../voting src/Screenshot 2024-04-20 143345.jpg" alt="Image" />
+<img src="../voting src/Screenshot 2024-04-20 143431.jpg" alt="Image" /> 
+<img src="../voting src/Screenshot 2024-04-20 143511.jpg" alt="Image" /> 
+<img src="../voting src/Screenshot 2024-04-20 143533.jpg" alt="Image" /> 
+<img src="../voting src/Screenshot 2024-04-20 143620.jpg" alt="Image" /> 
+<img src="../voting src/Screenshot 2024-04-20 143726.jpg" alt="Image" />
+</div> 
  
 
 ### Usage
