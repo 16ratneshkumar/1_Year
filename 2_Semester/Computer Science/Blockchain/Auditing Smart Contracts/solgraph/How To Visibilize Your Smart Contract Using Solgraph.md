@@ -39,7 +39,7 @@ nano MyContract.sol
 touch MyContract.dot
 ```
 ```
-touch MyContract.dot
+nano MyContract.dot
 ```
 ***This is the contant of a MyContract.dot file***
 ![Image](<src/Screenshot from 2024-04-14 11-17-24.png>)
