@@ -815,7 +815,7 @@ git clone https://github.com/16ratneshkumar/blockchain-voting-system.git
 ### Step 2
 - Navigate to the project directory:
 ```bash
-cd blockchain-voting-system/voting-dapp
+cd blockchain-voting-system
 ```
 ### Step 3
 - Now create .env file with this details.
