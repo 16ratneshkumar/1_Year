@@ -15,7 +15,48 @@ The Blockchain-Based Voting System is a secure and transparent approach to condu
 - [Node.js](<../../how to install node js.md>) (version 18 and above) installed on your machine
 - Hardhat for Ethereum smart contract development
 - Account on Alchemy  or Infura for API 
-- Metamask account and their browser extension installed on your browser
+- Metamask account and their browser extension installed on your browser.
+
+## Few Keywords
+**Web3 wallet**::Web3 wallets are a key component of the joing decentralized internet, as they provide users with the tools and capabilities to take control of their digital identities, assets, and participation in the evolving Web3 ecosystem
+- A crypto wallet has three main components:
+Public Key: This links to an address where you can send and receive transactions. 
+- Private Key: Must be kept secret and undisclosed. This is used for signing new transactions and enables access to funds.
+- Seed Phrase: Used to generate multiple private keys. Act as a root key, giving access to the rest of the keys and addresses in a user’s wallet. This can also create new private keys.
+### **Hot Wallets V/s Cold wallets**
+
+![Imaage](https://www.alchemy.com/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F105223%2F1705717348-hot-vs-cold-wallets.png&w=1080&q=75)
+
+- Hot Wallets are generally referred to as software wallets because they are hosted on devices that have access to the internet and cryptocurrency network. They are more convenient than other types of wallets due to their ability to store, send, receive, and view tokens. Hot wallets are considered the highest in utility when it comes to Web3 wallets.
+
+- Cold wallets tend to be a safer alternative to store cryptocurrencies because of no connection to the internet. This is because there is a physical medium to store the keys offline. This method makes cold wallets increasingly resistant to hackers, which is known as cold storage.
+**Metamask**::MetaMask is a web3 crypto wallet that allows users to store and swap cryptocurrencies, interact with the Ethereum blockchain ecosystem, and host a growing array of decentralized applications (dApps)
+**RPC provider**::RPC stand for  Remote Procedure Call.An RPC allows you to communicate and interact with that blockchain.
+**The graph**::The Graph is an indexing protocol for organizing and accessing data from blockchains and storage networks. It allows developers to search, find, publish, and use the public data they need to build decentralized applications.
+
+## List of Web3 Wallet
+1. MetaMask
+2. Coinbase Wallet
+3. Trust Wallet
+4. Zerion
+5. ZenGo
+6. Argent
+7. Rainbow
+8. Exodus
+9. Phantom
+10. OKX Wallet
+
+## List of RPC Providers
+1.Alchemy
+2.Syndica
+3.Ankr
+4.Quicknode
+5.GenesysGO
+6.Infura
+7.Lava Network
+8.GetBlock
+9.Blast
+10.RockX
 
 ## Installation By Itself
 #### Step 1
