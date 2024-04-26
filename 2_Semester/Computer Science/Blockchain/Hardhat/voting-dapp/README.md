@@ -31,6 +31,7 @@ Public Key: This links to an address where you can send and receive transactions
 
 - Cold wallets tend to be a safer alternative to store cryptocurrencies because of no connection to the internet. This is because there is a physical medium to store the keys offline. This method makes cold wallets increasingly resistant to hackers, which is known as cold storage.
 **Metamask**::MetaMask is a web3 crypto wallet that allows users to store and swap cryptocurrencies, interact with the Ethereum blockchain ecosystem, and host a growing array of decentralized applications (dApps)
+**Sepolia**::The Sepolia testnet is a Proof-of-Stake (PoS) testnet that developers can use to deploy and test their smart contracts for free.
 **RPC provider**::RPC stand for  Remote Procedure Call.An RPC allows you to communicate and interact with that blockchain.
 **The graph**::The Graph is an indexing protocol for organizing and accessing data from blockchains and storage networks. It allows developers to search, find, publish, and use the public data they need to build decentralized applications.
 
@@ -57,6 +58,16 @@ Public Key: This links to an address where you can send and receive transactions
 8.GetBlock
 9.Blast
 10.RockX
+
+
+## Tools we will use:
+![Image](<../voting src/Screenshot 2024-04-23 220146.jpg>)
+Testnet: Sepolia
+Web3 API: Alchemy
+Frontend: ReactJS.
+Backend: Solidity
+Unit Testing: chai
+web Interface: ether.js
 
 ## Installation By Itself
 #### Step 1
