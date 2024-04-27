@@ -17,11 +17,10 @@ def find_solutions(C, n):
     generate_solutions(0, [], list(range(C + 1)))
     return solutions
 
-# Example usage
 if __name__ == "__main__":
-    C = 5
-    n = 3
+    n = int(input("Enter number of terms::"))
+    C = int(input("Enter value of constant::"))
     all_solutions = find_solutions(C, n)
-    print(f"All solutions for x1 + x2 + x3 = {C}:")
+    print(f"All solutions for {n} terms equation which sum is {C}")
     for solution in all_solutions:
         print(solution)

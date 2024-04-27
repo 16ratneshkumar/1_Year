@@ -18,16 +18,14 @@ class DirectedGraph:
 
         return in_degrees, out_degrees
 
-# Example usage
 if __name__ == "__main__":
-    num_vertices = 6
+    num_vertices = int(input("Enter number of vertices::"))
     g = DirectedGraph(num_vertices)
-    g.add_edge(0, 1)
-    g.add_edge(0, 2)
-    g.add_edge(1, 3)
-    g.add_edge(2, 3)
-    g.add_edge(3, 4)
-    g.add_edge(4, 5)
+    num=int(input("Enter number of edges::"))
+    for i in range(num):
+        a=int(input(f"Enter first vertice of {i+1} edge:: "))- 1
+        b=int(input(f"Enter second vertice of same edge:: "))- 1
+        g.add_edge(a,b)
 
     print("Vertex\tIn-Degree\tOut-Degree")
     in_degrees,out_degrees=g.compute_degrees()

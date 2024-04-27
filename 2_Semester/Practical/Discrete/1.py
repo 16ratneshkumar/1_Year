@@ -34,7 +34,6 @@ class SET:
             return "This Is Not A Subset"
 
     def union_intersection(self, set2):
-        print("Your First Set Is:: \n", self.u_set, "\nAnother Set Is:: \n", set2.u_set)
         print("Intersection Of  Your Sets Are:: \n", self.u_set.intersection(set2.u_set))
         print("Union Of Your Sets Are:: \n", self.u_set.union(set2.u_set))
 
@@ -42,7 +41,6 @@ class SET:
         print("Your Complement Of Set Is:: \n", self.u_set-complement_set.u_set)
 
     def difference_and_symmetric_difference(self, set2):
-        print("Your Main Set Is:: \n", self.u_set, "\nAnother Set Is:: \n", set2.u_set)
         print("Difference Of Your Sets Are:: \n", self.u_set.difference(set2.u_set))
         print("Symmetric Difference of your sets are:: \n", self.u_set.symmetric_difference(set2.u_set))
 
@@ -50,12 +48,10 @@ class SET:
         cartesian_product = {(x, y)for x in self.u_set for y in set2.u_set}
         print("Your Cartesian Product Are:: ", cartesian_product)
 
-
 def set_create(uni="set"):
     u_set = set(map(int, input(f"Enter Your Element Of {uni} With A Space:: ").split()))
-    print(f"Your Required {uni} Are:: ", u_set)
+    print(f"Your Given {uni} Are:: ", u_set)
     return u_set
-
 
 def main():
     choice = str(input("""Main Menu!!
@@ -98,6 +94,6 @@ def main():
         print("Invalid Input!!\nPlease Try Again")
         main()
 
-
 if __name__ == "__main__":
-    main()
+    for i in range(8):
+        main()

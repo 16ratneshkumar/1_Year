@@ -3,8 +3,6 @@ member functions to check if the relation is Reflexive, Symmetric, Anti-symmetri
 Transitive. Using these functions check whether the given relation is: Equivalence or Partial Order relation or None"""
 
 from numpy import array
-
-
 class RELATION:
     def __init__(self, matrix):
         self.matrix = matrix
@@ -36,15 +34,14 @@ class RELATION:
             for j in range(self.length):
                 if i != j and self.matrix[i][j] and self.matrix[j][i]:
                     return False
+        return True
     
-
 def enter_matrix():
-    lst = list(map(int, input("Check Whether The Given Relation Is:\n Equivalence or Partial Order relation or None\nEnter You Relation In Form Of Matrix Value With A Space:: ").split()))
+    lst = list(map(int, input("Enter All Relation In Form Of Matrix Value With A Space:: ").split()))
     row = int(input("Enter How Many Row or Columns In Your Square Matrix:: "))
     matrix = array(lst).reshape(row, row)
-    print("Your Required Matrix Are:: ", matrix)
+    print("Your Required Matrix Are:: \n", matrix)
     return matrix
-
 
 def main():
     rel = RELATION(enter_matrix())
@@ -54,8 +51,5 @@ def main():
         return "Your Relation is Partial Order Relation."
     else:
         return "None"
-
-
 if __name__ == "__main__":
     print(main())
-
