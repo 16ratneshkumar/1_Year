@@ -36,44 +36,48 @@ Public Key: This links to an address where you can send and receive transactions
 **The graph**::The Graph is an indexing protocol for organizing and accessing data from blockchains and storage networks. It allows developers to search, find, publish, and use the public data they need to build decentralized applications.
 
 ## List of Web3 Wallet
-1. MetaMask
-2. Coinbase Wallet
-3. Trust Wallet
-4. Zerion
-5. ZenGo
-6. Argent
-7. Rainbow
-8. Exodus
-9. Phantom
-10. OKX Wallet
+  1. MetaMask
+  2. Coinbase Wallet
+  3. Trust Wallet
+  4. Zerion
+  5. ZenGo
+  6. Argent
+  7. Rainbow
+  8. Exodus
+  9. Phantom
+  10. OKX Wallet
 
 ## List of RPC Providers
-1.Alchemy
-2.Syndica
-3.Ankr
-4.Quicknode
-5.GenesysGO
-6.Infura
-7.Lava Network
-8.GetBlock
-9.Blast
-10.RockX
+  1. Alchemy
+  2. Syndica
+  3. Ankr
+  4. Quicknode
+  5. GenesysGO
+  6. Infura
+  7. Lava Network
+  8. GetBlock
+  9. Blast
+  10. RockX
 
 
 ## Tools we will use:
 ![Image](<../voting src/Screenshot 2024-04-23 220146.jpg>)
-Testnet: Sepolia
-Web3 API: Alchemy
-Frontend: ReactJS.
-Backend: Solidity
-Unit Testing: chai
-web Interface: ether.js
+
+ - Testnet: Sepolia
+ - Web3 API: Alchemy
+ - Frontend: ReactJS.
+ - Backend: Solidity
+ - Unit Testing: chai
+ - web Interface: ether.js
+
+## Architecture of dapps
+![Image](<../voting src/Screenshot 2024-04-26 081128.jpg>)
 
 ## Installation By Itself
 #### Step 1
 - Create a new repository
 ```sh
-mkdir voting-dapp && voting-dapp
+mkdir voting-dapp && cd voting-dapp
 ```
 ![Image](<../voting src/Screenshot from 2024-04-20 09-05-40.png>)
 
@@ -870,18 +874,23 @@ git clone https://github.com/16ratneshkumar/blockchain-voting-system.git
 cd blockchain-voting-system
 ```
 ### Step 3
+- Now we can install Hardhat:
+```
+npm install --save-dev hardhat
+```
+### Step 4
 - Now create .env file with this details.
 ```
 API_URL = "your api"
 PRIVATE_KEY = "metamask private key"
 CONTRACT_ADDRESS = ""
 ```
-### Step 4
+### Step 5
 - After that deploy you project with following cmd you will get a contract address paste it in your .env file.
 ```sh
 npx hardhat run --network sepolia scripts/depoly.js
 ```
-### Step 5
+### Step 6
 - go to src/Constant folder and edit constant.js file with your Contract Address and Contract Abi.
 ```js
 const contractAddress = "your contract address";
@@ -892,7 +901,7 @@ const contractAbi = your abi ;
 export {contractAbi, contractAddress};
 
 ```
-### Step 6
+### Step 7
 - Your project is done.Its time to run your project.
 - Before run your project you have to bulid your project .
 ```sh
