@@ -195,13 +195,13 @@ module.exports = {
 ```
 
 #### Step 7
-- Create .env file in which you can add following details.
+- Now set api and sepolia private key using following cmd .
 ```
-API_URL = "your api"
-PRIVATE_KEY = "metamask private key"
-CONTRACT_ADDRESS = ""
+npx hardhat vars set ALCHEMY_API_KEY
 ```
-
+```
+npx hardhat vars set SEPOLIA_PRIVATE_KEY
+```
 
 #### Step 8
 - Go to contracts folder and edit filename(lock.sol to Voting.sol) and paste following code.
@@ -453,7 +453,7 @@ main()
 
 
 #### Step 12
-- After that deploy you project with following cmd you will get a contract address paste it in your .env file.
+- After that deploy you project with following cmd .
 ```sh
 npx hardhat run --network sepolia scripts/depoly.js
 ```
@@ -834,7 +834,7 @@ export default Login;
 
 
 #### Step 18
-- Create a new folder(Constant) in src folder and add constant.js file.
+- Create a new folder(Constant) in src folder and add constant.js file and paste contract address here.
 ```js
 const contractAddress = "your contract address";
 
@@ -850,14 +850,14 @@ export {contractAbi, contractAddress};
 - Your project is done.Its time to run your project.
 - Before run your project you have to bulid your project .
 ```sh
-npm serve build
+npm run build
 ```
 ![Image](<../voting src/Screenshot from 2024-04-20 14-05-32.png>) 
 ![Image](<../voting src/Screenshot from 2024-04-20 14-09-20.png>) 
 
 - Now start your server and see your output in your local host(10.0.2.15:3000)
 ```sh
-server -s build
+npm install -g server && serve -s build
 ```
 ![Image](<../voting src/Screenshot from 2024-04-20 14-04-32.png>) 
 
@@ -879,14 +879,19 @@ cd blockchain-voting-system
 npm install --save-dev hardhat
 ```
 ### Step 4
-- Now create .env file with this details.
+- Now set api and sepolia private key using following cmd .
 ```
-API_URL = "your api"
-PRIVATE_KEY = "metamask private key"
-CONTRACT_ADDRESS = ""
+npx hardhat vars set ALCHEMY_API_KEY
+```
+```
+npx hardhat vars set SEPOLIA_PRIVATE_KEY
+```
+- Then compile the smart contract
+```
+npx hardhat compile
 ```
 ### Step 5
-- After that deploy you project with following cmd you will get a contract address paste it in your .env file.
+- After that deploy you project with following cmd .
 ```sh
 npx hardhat run --network sepolia scripts/depoly.js
 ```
@@ -905,14 +910,14 @@ export {contractAbi, contractAddress};
 - Your project is done.Its time to run your project.
 - Before run your project you have to bulid your project .
 ```sh
-npm serve build
+npm run build
 ```
 ![Image](<../voting src/Screenshot from 2024-04-20 14-05-32.png>) 
 ![Image](<../voting src/Screenshot from 2024-04-20 14-09-20.png>) 
 
 - Now start your server and see your output in your local host(10.0.2.15:3000)
 ```sh
-npm install -g server && server -s build
+npm install -g server && serve -s build
 ```
 ![Image](<../voting src/Screenshot from 2024-04-20 14-04-32.png>) 
 
