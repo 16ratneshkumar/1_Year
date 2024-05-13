@@ -1,0 +1,3 @@
+[submodule "fabric-samples"]
+	path = blockchain-voting-system
+	url = https://github.com/16ratneshkumar/blockchain-voting-system
