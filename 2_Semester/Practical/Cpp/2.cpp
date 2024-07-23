@@ -4,11 +4,11 @@
 using namespace std;
 
 void removeDuplicates(int arr[], int& size) {
-    unordered_set<int> uniqueElements;
+    unordered_set<int> unique;
     int index = 0;
 
     for (int i = 0; i < size; ++i) {
-        if (uniqueElements.insert(arr[i]).second) {
+        if (unique.insert(arr[i]).second) {
             arr[index++] = arr[i];
         }
     }
