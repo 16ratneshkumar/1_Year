@@ -1,3 +1,7 @@
-[submodule "fabric-samples"]
+[submodule "blockchain-voting-system"]
 	path = blockchain-voting-system
 	url = https://github.com/16ratneshkumar/blockchain-voting-system
+	
+[submodule "Hardhat"]
+	path = Hardhat/hardhat-tutorial
+	url = https://github.com/16ratneshkumar/Hardhat
