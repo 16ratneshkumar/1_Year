@@ -9,3 +9,6 @@
 [submodule "Hardhat-boilerplate"]
 	path = 2_Semester/Computer Science/Blockchain/Hardhat/hardhat-boilerplate
 	url = https://github.com/16ratneshkumar/Hardhat
+[submodule "2_Semester/Computer Science/Blockchain/Hardhat/Hardhat"]
+	path = 2_Semester/Computer Science/Blockchain/Hardhat/Hardhat
+	url = https://github.com/16ratneshkumar/Hardhat
