@@ -2,6 +2,10 @@
 	path = 2_Semester/Computer Science/Blockchain/Hardhat/blockchain-voting-system
 	url = https://github.com/16ratneshkumar/blockchain-voting-system
 	
-[submodule "Hardhat"]
+[submodule "Hardhat-tutorial"]
 	path = 2_Semester/Computer Science/Blockchain/Hardhat/hardhat-tutorial
-	url = https://github.com/16ratneshkumar/Hardhat
+	url = https://github.com/16ratneshkumar/Hardhat/tree/master/hardhat-tutorial
+
+[submodule "Hardhat-boilerplate"]
+	path = 2_Semester/Computer Science/Blockchain/Hardhat/hardhat-boilerplate
+	url = https://github.com/16ratneshkumar/Hardhat/tree/master/hardhat-boilerplate
