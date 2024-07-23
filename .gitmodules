@@ -4,8 +4,8 @@
 	
 [submodule "Hardhat-tutorial"]
 	path = 2_Semester/Computer Science/Blockchain/Hardhat/hardhat-tutorial
-	url = https://github.com/16ratneshkumar/Hardhat/tree/master/hardhat-tutorial
-
+	url = https://github.com/16ratneshkumar/Hardhat
+	
 [submodule "Hardhat-boilerplate"]
 	path = 2_Semester/Computer Science/Blockchain/Hardhat/hardhat-boilerplate
-	url = https://github.com/16ratneshkumar/Hardhat/tree/master/hardhat-boilerplate
+	url = https://github.com/16ratneshkumar/Hardhat
