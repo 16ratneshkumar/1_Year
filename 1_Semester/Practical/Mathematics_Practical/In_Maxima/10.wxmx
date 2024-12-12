@@ -1,11 +1,12 @@
 /* Application of Linear algebra: Coding and decoding of messages using nonsingular matrices.   then decode it. */
 
-"Enter your message in matrix form (numbers should be equal to alphabetical positions)";
+x[i,j] := i + j;
+mat:genmatrix(x, 5, 4):
 "{A:1,B:2,C:3,D:4,E:5,F:6,G:7,H:8,I:9,J:10,K:11,L:12,M:13,N:14,O:15,P:16,Q:17,R:18,S:19,T:20,U:21,V:22,W:23,X:24,Y:25,Z:26, :27}";
-row:read("enter your matrix row:")$;
-col:read("enter your matrix column :")$;
-h [i, j] :=2/ (i +6* j - 1)$;
-mat_de:genmatrix(h,row,col)$;
-mat_input:entermatrix(row,col);                           
-decode_message:mat_de*mat_input;
-coded_message:decodeMatrix/mat_de;
+"Enter your message in matrix form (numbers should be equal to alphabetical positions)";
+mat_input:matrix([12,9,14,5],[1,18,27,1],[12,7,5,2],[18,1,27,6],[21,14,27,27]);
+decodeMatrix:mat*mat_input;
+alpha:[A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z," "];
+cm:decodeMatrix/mat;
+for i:1 thru 5 do
+    codeMessage:print(alpha[cm[i][1]], alpha[cm[i][2]], alpha[cm[i][3]], alpha[cm[i][4]]);

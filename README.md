@@ -46,7 +46,7 @@
                     - #### [4.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/4.wxmx)
                          - Solve A System Of Homogeneous And Non-Homogeneous Equations Using Gauss Elimination Method.
                     - #### [5.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/5.wxmx)
-                         - $ Solve A System Of Homogeneous Equations Using The Gauss Jordan Method.
+                         - Solve A System Of Homogeneous Equations Using The Gauss Jordan Method.
                     - #### [6.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/6.wxmx)
                          - Generate Basis Of Column Space, Null Space, Row Space And Left Null Space Of A Matrix Space.
                     - #### [7.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/7.wxmx)
@@ -54,43 +54,43 @@
                     - #### [8.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/8.wxmx)
                          - Find The Orthonormal Basis Of Given Vectorspace Using The Gram-Schmidt Orthogonalization Process.
                     - #### [9.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/9.wxmx)
-                         - $ Check The Diagonalizable Property Of Matrices And Find The Corresponding Eigenvalue And Verify The Cayley- Hamilton Theorem.
+                         - Check The Diagonalizable Property Of Matrices And Find The Corresponding Eigenvalue And Verify The Cayley- Hamilton Theorem.
                     - #### [10.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/10.wxmx)
-                         - $ Application Of Linear Algebra: Coding And Decoding Of Messages Using Non Singular Matrices.
+                         - Application Of Linear Algebra: Coding And Decoding Of Messages Using Non Singular Matrices.
                          <br/>Eg Code “Linear Algebra Is Fun” And Then Decode It.
                     - #### [11.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/11.wxmx)
                          - Compute Gradient Of A Scalar Field.
                     - #### [12.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/12.wxmx)
-                         - Compute Gradient Of A Scalar Field.
+                         - Compute Divergence of a vector field.
                     - #### [13.wxmx](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Mathematics_Practical/In_Maxima/13.wxmx)
                          - Compute Curl Of A Vector Field.
-               - #### [In Python]
-                    - #### [1.py]
+               - #### [In Python](1_Semester/Practical/Mathematics_Practical/In_Python)
+                    - #### [1.py](1_Semester/Practical/Mathematics_Practical/In_Python/1.py)
                          - Create And Transform Vectors And Matrices (The Transpose Vector (Matrix) Conjugate Transpose Of A Vector (Matrix)).
-                    - #### [2.py]
+                    - #### [2.py](1_Semester/Practical/Mathematics_Practical/In_Python/2.py)
                          - Generate The Matrix Into Echelon Form And Find Its Rank.
-                    - #### [3.py]
+                    - #### [3.py](1_Semester/Practical/Mathematics_Practical/In_Python/3.py)
                          - Find Cofactors, Determinant, Adjoint And Inverse Of A Matrix.
-                    - #### [4.py]
+                    - #### [4.py](1_Semester/Practical/Mathematics_Practical/In_Python/4.py)
                          - Solve A System Of Homogeneous And Non-Homogeneous Equations Using Gauss Elimination Method.
-                    - #### [5.py]
+                    - #### [5.py](1_Semester/Practical/Mathematics_Practical/In_Python/5.py)
                          - Solve A System Of Homogeneous Equations Using The Gauss Jordan Method.
-                    - #### [6.py]
+                    - #### [6.py](1_Semester/Practical/Mathematics_Practical/In_Python/6.py)
                          - Generate Basis Of Column Space, Null Space, Row Space And Left Null Space Of A Matrix Space.
-                    - #### [7.py]
+                    - #### [7.py](1_Semester/Practical/Mathematics_Practical/In_Python/7.py)
                          - Check The Linear Dependence Of Vectors. Generate A Linear Combination Of Given Vectors Of Rn/ Matrices Of The Same Size And Find The Transition Matrix Of Given Matrix Space.
-                    - #### [8.py]
+                    - #### [8.py](1_Semester/Practical/Mathematics_Practical/In_Python/8.py)
                          - Find The Orthonormal Basis Of Given Vectorspace Using The Gram-Schmidt Orthogonalization Process.
-                    - #### [9.py]
-                         - $ Check The Diagonalizable Property Of Matrices And Find The Corresponding Eigenvalue And Verify The Cayley- Hamilton Theorem.
-                    - #### [10.py]
-                         - $ Application Of Linear Algebra: Coding And Decoding Of Messages Using Non Singular Matrices.
+                    - #### [9.py](1_Semester/Practical/Mathematics_Practical/In_Python/9.py)
+                         - Check The Diagonalizable Property Of Matrices And Find The Corresponding Eigenvalue And Verify The Cayley- Hamilton Theorem.
+                    - #### [10.py](1_Semester/Practical/Mathematics_Practical/In_Python/10.py)
+                         - Application Of Linear Algebra: Coding And Decoding Of Messages Using Non Singular Matrices.
                          <br/>Eg Code “Linear Algebra Is Fun” And Then Decode It.
-                    - #### [11.py]
+                    - #### [11.py](1_Semester/Practical/Mathematics_Practical/In_Python/11.py)
                          - Compute Gradient Of A Scalar Field.
-                    - #### [12.py]
-                         - Compute Gradient Of A Scalar Field.
-                    - #### [13.py]
+                    - #### [12.py](1_Semester/Practical/Mathematics_Practical/In_Python/12.py)
+                         - Compute Divergence of a vector field.
+                    - #### [13.py](1_Semester/Practical/Mathematics_Practical/In_Python/13.py)
                          - Compute Curl Of A Vector Field.
           - ### [Python_Practical](https://github.com/16ratneshkumar/1_Year/blob/main/1_Semester/Practical/Python_Practical)
                - Here Are Some Practical Programs That We Made During Our First Semester Of Computer Science In Python Practical.

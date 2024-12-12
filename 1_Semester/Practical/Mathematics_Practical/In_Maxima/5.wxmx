@@ -3,8 +3,11 @@
 x+2y+z=0
 3x+y-z=0*/
 
-Matrix:matrix([2,2,2,0],[1,2,1,0],[3,1,-1,0]);
+equation1:read("enter first equation:");
+equation2:read("enter second equation:");
+equation3:read("enter third equation:");
+Matrix:augcoefmatrix([equation1,equation2,equation3],[x,y,z]);
 Echelon:echelon(Matrix);
 Oper:row(Echelon,1)-(row(Echelon,2)+row(Echelon,3));
 Rref:addrow(Oper,row(Echelon,2),row(Echelon,3));
-Solution:linsolve([x=0, y=0, z=0], [x,y,z]);
+Solution:linsolve([Echelon[1][1].x=0,Echelon[2][2].y=0,Echelon[3][3].z=0], [x,y,z]);
